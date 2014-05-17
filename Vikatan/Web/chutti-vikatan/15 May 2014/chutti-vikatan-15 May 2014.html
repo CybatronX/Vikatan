@@ -1,0 +1,577 @@
+	<HTML>
+		<Head>
+			<meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+
+			<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.0/jquery.mobile-1.4.0.min.css" />
+
+			<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+
+			<style>
+				.title1 {text-align:center;font-size:40px;color:dimgray;}
+				.subtitle1{text-align:center;font-size:25px;color:dimgray;}
+				.subtitle2{text-align:center;font-size:15px;color:dimgray;}
+				.subtitle3{text-align:center;font-size:15px;color:dimgray;}
+				.pageNumber>span{text-align:center;font-size:30px;color:dimgray;}
+
+				.AjayPageDiv {
+					display:none;
+					margin-bottom:30px;
+					font-size:30px;
+					color:dimgray;
+				}
+
+				.next{
+					float:right;
+					height:50px;
+					width:100px;
+				}
+
+				.next>img{
+					width:100%;
+					height:100%;
+				}
+
+				.prev{
+					float:left;
+					height:50px;
+					width:100px;
+				}
+
+				.prev>img{
+					width:100%;
+					height:100%;
+				}
+
+				.pageNumber{
+					margin-left:40%;
+					float:left;
+				}
+
+
+			</style>
+
+			<script type="text/javascript" >
+			$( document ).ready(function() {
+				$('div.AjayPageDiv').filter(":first").css("display","block");
+				
+				var pages = $('div.AjayPageDiv');
+				var totalPages = pages.length;
+				var currentPageNumber = 0;
+
+				$('div.pageNumber>span').text("Page:" + (currentPageNumber+1) + "/" + totalPages );
+
+				$('div.next').click(function(){
+					if(currentPageNumber+1 < totalPages)
+					{
+						$(pages[currentPageNumber]).hide();
+						$(pages[currentPageNumber+1]).show();
+						currentPageNumber += 1;
+						$('div.pageNumber>span').text("Page:" + (currentPageNumber+1) + "/" + totalPages );
+					}
+				 });
+
+				 $('div.prev').click(function(){
+				 	if(currentPageNumber >0)
+				 	{
+				 		$(pages[currentPageNumber]).hide();
+						$(pages[currentPageNumber-1]).show();
+						currentPageNumber -= 1;
+						$('div.pageNumber>span').text("Page:" + (currentPageNumber+1) + "/" + totalPages );
+				 	}
+				 });
+
+			});
+			</script>
+
+		</Head>
+		<Body>
+		<div class="header">
+		
+			<div class="next">
+				<img  src="../../next.gif"/>
+			</div>
+
+			<div class="prev">
+				<img src="../../prev.gif"/>
+			</div>
+		</div>
+
+
+			<div data-role='page' class='AjayPageDiv' style="width:94%; margin-left:3%"> <div class="art_content">
+<div class="title1">நம்ம காட்டு ராஜா !</div>
+<div class="subtitle1">மகேஸ்  படங்கள் : யூமா வாசுகி </div>
+<div class="subtitle2"></div>
+<div class="content" style="border-top:1px solid #DDD;">
+<p class="content">'மூங்கில் காட்டின் பக்கத்தில் நான் ஒரு வீடு கட்டலாம் என முடிவு செய்திருக்கிறேன். இது பற்றி என்ன நினைக்கிறீர்கள்'' என்று கேட்டது சிறுத்தை ராஜா.</p>
+<p class="content">''ஆகா... பிரமாதம்'' என்றன அங்கே கூடியிருந்த மற்ற விலங்குகள்.</p>
+<p class="content">''வீடு கட்ட யார் எனக்கு உதவி செய்கிறீர்கள்?' என்று கேட்டது சிறுத்தை.</p>
+<p class="content">விலங்குகள் எல்லாம் உரத்த குரலில், 'நாங்கள் வருகிறோம், நாங்கள் வருகிறோம்!' என்றன.</p>
+<p class="content">அப்போதெல்லாம் சிறுத்தைதான் காட்டுக்கு ராஜாவாக இருந்தது. ராஜா வீடு கட்டும்போது, மற்ற விலங்குகள் எப்படி உதவி செய்யாமல் இருக்க முடியும்?</p>
+<p class="content">தவிர, அந்தச் சிறுத்தை  ஆணவம் மிக்கது. தான் நினைத்தது நடக்க வேண்டும் என்பதில் உறுதியாக இருக்கும்.தான் செய்வது சரி என்றும் நினைக்கும். மற்ற எந்த விலங்கையும் மதிக்காது. அதனால், மற்ற விலங்குகள், சிறுத்தை ராஜாவின் பேச்சுக்கு மறு பேச்சுப் பேசுவது இல்லை.</p>
+<p class="content">வீடு கட்டுவது பற்றி அறிவித்த பிறகு, சிறுத்தை வெளியே சென்றுவிட்டது. மற்ற விலங்குகள் எல்லாம் ஒன்று சேர்ந்தன. வீட்டை அமைக்க வேண்டிய இடத்தைத் தேர்ந்தெடுத்து, வேலையைத் தொடங்கின. ஒவ்வொரு விலங்கும் தன்னால் செய்யக்கூடிய வேலையை எடுத்துக்கொண்டது.</p>
+<p style="text-align: center"><img alt="" width="580" height="246" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch32b.jpg"></p>
+<p class="content">ஆமை, தூண்கள் அமைக்க பள்ளங்கள் தோண்டியது. சிங்கம், தூண்களுக்கான மரங்களை வெட்டி எடுத்துவந்தது. கழுதைப் புலி, அந்த மரங்களைப் பள்ளங்களில் வைத்து உறுதிப்படுத்தியது. மான்கள், சுற்றுச் சுவர் அமைத்தன. குரங்குகள், மேற்கூரையை அமைத்தன.</p>
+<p class="content">மாலையில் திரும்பிவந்தது சிறுத்தை. அப்போது, வீடு கட்டி முடிக்கப்பட்டு, கடைசிக் கட்ட அலங்கார வேலைகள் நடந்துகொண்டிருந்தன. காலையில் இருந்து வேலை செய்ததால், எல்லா விலங்குகளும் களைத்துச் சோர்ந்திருந்தன. ஆனாலும், தங்கள் ராஜாவுக்கு மிக அழகான வீட்டைக் கட்டிய சந்தோஷம், மனநிறைவைத் தந்தது.</p>
+<p class="content">ஆனால், அந்த அருமையான வீட்டைப் பார்த்தும் சிறுத்தை எதுவும் சொல்லவில்லை. அங்கிருந்த விலங்குகளை ஏறிட்டும் பா£ர்க்காமல்,  வீட்டுக்குள் சென்றது. அங்கே விளையாடிக்கொண்டிருந்த குரங்குக் குட்டிகளை, 'இங்கே என்ன கலாட்டா? வெளியே போ!' என்று கூச்சலிட்டு விரட்டியது.</p>
+<p style="text-align: center"><img alt="" width="580" height="404" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch32c.jpg"></p>
+<p class="content">தாங்கள் பாடுபட்டு வீடு கட்டியதைச் சிறுத்தை ராஜா பொருட்படுத்தவே இல்லை. நன்றி என்று ஒரு வார்த்தைகூடச் சொல்லவில்லையே என்று  மற்ற விலங்குகள் மிகவும் வெறுப்படைந்தன. அன்று இரவே, குன்றின் மீது கூட்டம்போட்டுப் பேசின.</p>
+<p class="content">'சிறுத்தை ராஜாவின் நடத்தை சரியில்லை. யாராக இருந்தாலும் நன்றி இல்லாமல் நடந்துகொள்வது பெரிய குற்றம். அதுவும் ராஜா இப்படி நடந்துகொள்வதைப் பொறுத்துக்கொள்ளவே முடியாது' என்றது யானை.</p>
+<p class="content">எனவே, அவை எல்லாம் ஒன்று சேர்ந்து, சிறுத்தையின் ராஜா பதவியைப் பறிப்பது என முடிவுசெய்தன. 'ஆனால், இதை அந்தச் சிறுத்தையிடம் சொல்லி, விரட்டுவது யார்? அப்படிச் செய்தபின் ராஜாவாக இருந்து பொறுப்புகளைக் கவனிக்கப்போவது யார்?’ என்ற கேள்விகள் எழுந்தன.</p>
+<p class="content">மற்ற விலங்குகள் தயங்கியபோது, சிங்கம் முன்வந்தது. ''நான் பொறுப்பை ஏற்றுக்கொள்கிறேன். உங்களுக்கு எல்லாம் நல்ல அரசனாக இருப்பேன்'' என்றது.</p>
+<p style="text-align: center"><img alt="" width="429" height="273" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch32a.jpg"></p>
+<p class="content">அன்று இரவு, சிறுத்தை தன் புதிய வீட்டில்  தூங்கிக்கொண்டிருந்தது. அங்கே, சிங்கம் தலைமையில் விலங்குகள் கூட்டமாக வந்தன. யானை, தன் நீண்ட தும்பிக்கையை நீட்டி, வீட்டின் மேற்கூரையை இழுத்துக் கீழே போட்டது. திடுக்கிட்டு விழித்த சிறுத்தை, சுற்றிலும் கூடியிருந்த விலங்குகளைப் பார்த்துத் திகைத்தது.</p>
+<p class="content">''என்ன தைரியம் இருந்தால், என் தூக்கத்தைக் கெடுத்திருப்பீர்கள்?'' என்று கோபமாகக் கேட்டது.</p>
+<p class="content">அப்போது, சிங்கம் உறுமலுடன் முன்னால் வந்து, ''இனி உன் கூச்சலுக்கு நாங்கள் பயப்பட மாட்டோம். உன்னை அரசர் பதவியில் இருந்து நீக்குகிறோம்.உனக்கு பதவிதான் வேண்டும் என்றால், என்னோடு மோதிப் பார். அல்லது உயிர் போதும் என்றால், அமைதியாகப் போய்விடு'' என்றது.</p>
+<p class="content">சிங்கம் இவ்வாறு தைரியமாகப் பேசியதும் மற்ற விலங்குகளும் தைரியம்பெற்று, சிறுத்தைக்கு எதிராகக் கோஷம் போட்டன.</p>
+<p class="content">'இவர்களை எதிர்த்து நின்றால், வெற்றிபெற மாட்டோம். அரசன் என்ற உயர்ந்த பதவி கிடைத்தும் அதை முறையாகப் பயன்படுத்தாத எனக்கு, இது தேவைதான்’ என்று நொந்துகொண்ட சிறுத்தை, காட்டின் அடர்ந்த பகுதிக்குள் ஓடி மறைந்தது.</p>
+<p class="content">அதன் பிறகு விலங்குகள், சிங்கத்தை காட்டு ராஜாவாக அறிவித்தன. அன்பும் வீரமும் கொண்ட சிங்க ராஜாவின் ஆட்சியில், விலங்குகளும் பறவைகளும் மகிழ்ச்சியாக வாழ்ந்தன.</p>
+</div>
+</div> </div><div data-role='page' class='AjayPageDiv' style="width:94%; margin-left:3%"> <div class="art_content">
+<div class="title1">சுட்டி விகடன் - 3D</div>
+<div class="subtitle1"></div>
+<div class="content" style="border-top:1px solid #DDD;">
+<p style="text-align: center"><span style="font-size: medium">3d-யில் பார்க்க படத்தை க்ளிக் செய்க !</span></p>
+<p style="text-align: center"><span style="font-size: medium"><a href="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch35.jpg"><img alt="" width="600" height="400" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/1(1).jpg"></a></span></p>
+<p style="text-align: center"><span style="font-size: medium"><a target="_blank" href="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch36.jpg"><img alt="" width="600" height="450" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/2.jpg"></a></span></p>
+<p style="text-align: center"><span style="font-size: medium"><a target="_blank" href="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch37.jpg"><img alt="" width="600" height="450" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/3.jpg"></a></span></p>
+<p style="text-align: center"><span style="font-size: medium"><a target="_blank" href="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch38.jpg"><img alt="" width="600" height="400" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/4.jpg"></a></span></p>
+<p style="text-align: center"><span style="font-size: medium"><a target="_blank" href="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch39.jpg"><img alt="" width="600" height="400" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/5.jpg"></a></span></p>
+<p style="text-align: center"><span style="font-size: medium"><a target="_blank" href="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch40.jpg"><img alt="" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/6.jpg"></a></span></p>
+<p style="text-align: center"><span style="font-size: medium"><a target="_blank" href="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch52.jpg"><img alt="" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/9.jpg"></a></span></p>
+<p style="text-align: center"><span style="font-size: medium"><a href="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch53.jpg"><img alt="" width="600" height="400" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/10.jpg"></a></span></p>
+</div>
+</div> </div><div data-role='page' class='AjayPageDiv' style="width:94%; margin-left:3%"> <div class="art_content">
+<div class="title1">சுட்டி விகடன் - 3D</div>
+<div class="subtitle1"></div>
+<div class="content" style="border-top:1px solid #DDD;">
+<p style="text-align: center"><span style="color: #800080"><span style="font-size: medium">3d-யில் பார்க்க படத்தை க்ளிக் செய்க !</span></span></p>
+<p style="text-align: center"><span style="color: #800080"><span style="font-size: medium"><a target="_blank" href="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch54.jpg"><img alt="" width="600" height="450" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/11.jpg"></a></span></span></p>
+<p style="text-align: center"> </p>
+<p style="text-align: center"><span style="color: #800080"><span style="font-size: medium"><a target="_blank" href="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch55.jpg"><img alt="" width="600" height="400" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/12.jpg"></a></span></span></p>
+<p style="text-align: center"><span style="color: #800080"><span style="font-size: medium"><a target="_blank" href="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch57.jpg"><img alt="" width="600" height="400" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/14.jpg"></a></span></span></p>
+<p style="text-align: center"><span style="color: #800080"><span style="font-size: medium"><a target="_blank" href="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch58.jpg"><img alt="" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/16.jpg"></a></span></span></p>
+<p style="text-align: center"><span style="color: #800080"><span style="font-size: medium"><a target="_blank" href="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch56.jpg"><img width="600" height="450" alt="" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/42.jpg"></a></span></span></p>
+<p style="text-align: center"><span style="color: #800080"><span style="font-size: medium"><a target="_blank" href="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch42.jpg"><img width="600" height="400" alt="" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/42a.jpg"></a></span></span></p>
+</div>
+</div> </div><div data-role='page' class='AjayPageDiv' style="width:94%; margin-left:3%"> <div class="art_content">
+<div class="title1">பேனா பிடிக்கலாம்...பின்னி எடுக்கலாம் !</div>
+<div class="subtitle1"></div>
+<div class="content" style="border-top:1px solid #DDD;">
+<p style="text-align: center"><span style="color: #993300"><img width="500" height="341" alt="" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch21b.jpg"></span></p>
+<p style="text-align: left"><span style="color: #993300">அன்புச் சுட்டிகளே! </span></p>
+<p class="content"> </p>
+<p class="content">வாருங்கள்... 'சுட்டி ஸ்டார்’ ஆகலாம்!</p>
+<p class="content">நீங்கள் ஆவலோடும் அக்கறையோடும் எதிர்பார்த்து இருந்த 'சுட்டி பத்திரிகையாளர் பயிற்சித் திட்டம்’ இதோ வந்துவிட்டது!</p>
+<p class="content">2014-15-ம் ஆண்டுக்கான இந்தப் பயிற்சித் திட்டத்தில் நீங்கள் கட்டுரைகள் எழுத, வி.ஐ.பி-களை பேட்டி காண, விமர்சனங்கள் எழுத... என எல்லாவித அனுபவங்களுக்கும் வாய்ப்பு ஏற்படுத்தித் தருகிறது சுட்டி விகடன். உங்கள் ஊரில், உங்கள் வீட்டில் இருந்தபடியே எல்லோருக்கும் தெரியும் வகையில் நீங்கள் உயரலாம்!</p>
+<p class="content">ஒரே ஒரு நிபந்தனைதான். நீங்கள் 10 முதல் 15 வயதுக்கு உட்பட்ட மாணவராக இருக்க வேண்டும்.</p>
+<p class="content">கடந்த ஆறு வருடங்களில், சுட்டி ஸ்டார்களாகத் தேர்வான சுட்டிகள் இன்று தன்னம்பிக்கையிலும், தமிழில் எழுதுவதிலும், புத்தகங்கள் படிப்பதிலும் சிறப்பான முன்னேற்றத்தை அடைந்திருக்கிறார்கள். இந்த விஷயத்தில் சுட்டிகள், அவர்களது பெற்றோர், பள்ளி ஆசிரியர்கள், நண்பர்கள் எல்லோருக்குமே சந்தோஷம், பெருமை!</p>
+<p style="text-align: center"><img width="580" height="464" alt="" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch21d.jpg"></p>
+<p class="content">சுட்டி ஸ்டாராகத் தேர்வாகும் ஒவ்வொரு சுட்டிக்கும், அவரைச் சார்ந்தவர்களுக்கும், சுட்டிகளின் பள்ளிக்கும் இந்த சந்தோஷமும் பெருமையும் கிட்டுவது உறுதி!</p>
+<p class="content">வருங்கால சுட்டி ஸ்டார்களே... ரெடியா?</p>
+<p class="content">உடனே எதிர்ப் பக்கத்தில் இருக்கும் விண்ணப்பப் படிவத்தை முழுமையாகப் பூர்த்திசெய்து, அதனுடன் கேட்கப்பட்டு இருக்கும் விஷயங்களையும் இணைத்து, சுட்டி விகடன் அலுவலகத்துக்கு அனுப்புங்கள்.</p>
+<p class="content">நினைவு இருக்கட்டும், விண்ணப்பங்கள் வந்துசேர வேண்டிய கடைசித் தேதி: 20.05.2014</p>
+<p style="text-align: center"><img width="400" height="215" alt="" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch21c.jpg"></p>
+<p class="content">சுட்டிகள் அனைவருக்கும் வாழ்த்துகள்!</p>
+<p class="content">முதல் ரவுண்டில் தேர்ந்தெடுக்கப்பட்டால்,</p>
+<p class="content">மே மாதத்தின் இறுதியில், உங்களோடு ஜாலியாக ஒரு சந்திப்பு இருக்கும். அதற்கான நேர்காணல் கடிதம் ஒன்றை உங்களுக்கு அனுப்பிவைப்போம்.</p>
+<p style="text-align: center"><span style="color: #800080"><span style="font-size: medium">Click To Download</span></span></p>
+<p style="text-align: center"><a target="_blank" href="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch21.jpg"><img width="400" height="573" alt="" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch21a.jpg"></a></p>
+<p style="text-align: center">Participation in Online Click Here </p>
+<p style="text-align: center"><a target="_blank" href="http://www.vikatan.com/chutti/chuttireporter/"><img width="400" height="211" alt="" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch21f.jpg"></a></p>
+</div>
+</div> </div><div data-role='page' class='AjayPageDiv' style="width:94%; margin-left:3%"> <div class="art_content">
+<div class="title1">யாரும் இங்கே எதிரி இல்லை !</div>
+<div class="subtitle1">வி.எஸ்.சரவணன் படங்கள் ஜெ.வேங்கடராஜ் </div>
+<div class="subtitle2"></div>
+<div class="content" style="border-top:1px solid #DDD;">
+<p class="content">டென்னிஸ் ஆடுகளத்தில் வெற்றிகளைக் குவித்து, நாளைய நம்பிக்கை நட்சத்திரமாக வலம்வருகிறார் தக்ஷினேஸ்வர்.</p>
+<p class="content">சென்னை, வேலம்மாள் மெட்ரிக் பள்ளியில் எட்டாம் வகுப்பு படிக்கிறார் தக்ஷினேஸ்வர். ''பிரபல ஸ்பெயின் நாட்டு டென்னிஸ் வீரர் நடால், டென்னிஸ் விளையாட்டை வளர்க்கும் விதமாக, பல நாடுகளில் டென்னிஸ் கிளப் தொடங்கி, உதவிவருகிறார். ஆந்திரப் பிரதேசம் அனந்தபூரில், 'நடால் எஜுகேஷனல் டென்னிஸ் ஸ்கூல்’ உள்ளது. அங்கே, இந்திய அளவில் நடந்த 14 வயதுக்கு உள்பட்டோருக்கான ஒற்றையர் பிரிவு போட்டியில் சாம்பியன் பட்டம் வென்றது இரட்டிப்பு சந்தோஷத்தை அளித்திருக்கிறது'' என்கிறார்.</p>
+<p class="content">இரட்டையர் பிரிவில், ரன்னர்- அப் ஆக இவரும் வருண் வைகோவும் வந்திருக்கிறார்கள். (ம.தி.மு.க.பொதுச்செயலாளர் வைகோவின் பேரன்தான் வருண் வைகோ.)</p>
+<p class="content">''என் அப்பா சுரேஷ் ஏகாம்பரம், திண்டுக்கல் டென்னிஸ் கிளப்பில் முக்கியமான ஆட்டக்காரர். அவர் விளையாடச் செல்லும்போதெல்லாம் நானும் போவேன். அப்போது, கண்களால் டென்னிஸ் பேட்டைப் பிடிச்சுப் பழகினேன்.'' என்று சிரிப்புடன் சொல்கிறார் தக்ஷினேஸ்வர்.</p>
+<p style="text-align: center"><img width="400" height="525" alt="" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch24a.jpg"></p>
+<p class="content">மகனின் ஆர்வத்தைப் புரிந்துகொண்ட அப்பா சுரேஷ் ஏகாம்பரம் திண்டுக்கல்லில் இருந்து சென்னைக்கே வந்துவிட்டார். ''தக்ஷினேஸ்வர் மூன்றாவது படிக்கும்போது பயிற்சியைத் தொடங்கினோம். அப்போது, பயிற்சியாளர் சக்கரவர்த்தி ஹைதராபாத்தில் இருந்தார். பயிற்சிக்காக மூன்று வருடங்கள் நானோ, என் மனைவியோ தக்ஷினேஸ்வருடன் ஹைதராபாத் சென்று தங்குவோம்'' என்கிறார்.</p>
+<p class="content">பெற்றோரின் அர்ப்பணிப்பான உழைப்புக்குப் பரிசாக, வெற்றிப் பதக்கங்களைக் குவித்துவருகிறார் தக்ஷினேஸ்வர். 2008-ல் திண்டுக்கலில் நடந்த 10 வயதுக்கு உட்பட்டோருக்கான மாநில டென்னிஸ் போட்டியில், பட்டம் வென்றார். 2010-ல் செகந்தராபாத்தில் நடந்த 10 வயதுக்கு உட்பட்டோருக்கான  தேசியப் போட்டியில் பட்டம், 2011-ம் ஆண்டு 12 வயதுக்கு உட்பட்டோருக்கான  தேசியப் போட்டியில் சாம்பியன், 2012 கோலாபூரில் நடந்த 12 வயதுக்கு உட்பட்டோருக்கான  தேசியப் போட்டியில்  வெற்றி, 2014-ல் புனேயில் நடந்த 14 வயதுக்கு உட்பட்டோருக்கான தேசியப் போட்டியில் தங்கப் பதக்கம் என்று பதக்கப் பட்டியல் நீள்கிறது.</p>
+<p class="content"><img align="left" width="269" height="235" alt="" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch24b.jpg">''இந்தியாவில் 14 வயதுக்கு உட்பட்ட டென்னிஸ் பிளேயர்களில் முதல் இடத்தில் இருப்பவரைத் தவிர, மற்ற அனைவரையும் வெற்றி கண்டிருக்கிறார் தக்ஷினேஸ்வர். இவரது ஃபுட் வொர்க் வித்தியாசமானது. இதுபோன்ற ஃபுட் வொர்க்கை மற்றவர்களையும் பின்பற்றச் சொல்வேன்'' என்கிறார், அவரது பயிற்சியாளர் சக்கரவர்த்தி.</p>
+<p class="content">''தக்ஷின் போட்டிக் களத்தில் நடந்துகொள்ளும் விதம் அற்புதமானது. ஒரு போட்டியில் தக்ஷினிடம் தோற்றவர், தனது ராக்கெட்டை இவன் பக்கம் கோபமாக வீசியெறிந்தார். தக்ஷின் கோபப்படாமல், பொறுமையாக அந்த ராக்கெட்டை எடுத்து அந்த வீரரிடம் கொடுத்து, அவரது கையைக் குலுக்கிவிட்டு வந்தார். இந்தப் பக்குவம்தான் தக்ஷினின் வெற்றிகளுக்கு மேலும் துணை நிற்கிறது. இவர் சர்வதேச அளவில் நிச்சயம் ஜொலிப்பார்'' என்கிறார்.</p>
+<p class="content">''விளையாட்டில் வெற்றியும் தோல்வியும் சகஜம். நமக்கு எதிராக விளையாடும் யாரும் நமக்கு எதிரி கிடையாது. அவரும் சக வீரர்தான். தோல்வி நேரங்களில் அவருக்கு நமது நட்பான புன்னகையும் கைகுலுக்கலும்தான் பெரும் ஆறுதலாக இருக்கும்'' என்கிறார் தக்ஷினேஸ்வர்.</p>
+<p class="content">பக்குவம் நிறைந்த தக்ஷினேஸ்வரின் வெற்றிப் பயணத்துக்கு, கோல்டன் வாழ்த்துகள்.</p>
+</div>
+</div> </div><div data-role='page' class='AjayPageDiv' style="width:94%; margin-left:3%"> <div class="art_content">
+<div class="title1">இது ஆண்ட்ராய்டு அசத்தல் !</div>
+<div class="subtitle1">வி.எஸ்.சரவணன் படங்கள் : ஆர்.முத்துக்குமார் </div>
+<div class="subtitle2"></div>
+<div class="content" style="border-top:1px solid #DDD;">
+<p class="content">அந்தச் சாலையில் நடந்துசெல்பவர்கள் குறிப்பிட்ட இடம் வந்ததும் மூக்கைப் பொத்துகிறார்கள். காரணம், பல நாட்கள் சேர்ந்துபோன குப்பையால் கெட்ட நாற்றம் வீசுகிறது. கழிவுநீர்க் கால்வாய் திறந்துகிடக்கிறது. எல்லோரும் வேகமாகக் கடந்து, உடனே மறந்துவிடுகிறார்கள்.</p>
+<p class="content">''ஆனால், என்னால் அதை மறக்க முடியலை. ஸ்கூலுக்கு வந்ததும் டீச்சர்கிட்டே பேசினேன். 'இதுக்கு நாம ஏதாவது செய்யணும்’னு சொன்னேன். அப்படி உருவானதுதான், 'கிட்ஸ் ஜர்னலிஸ்ட் ஆண்ட்ராய்டு’ கண்டுபிடிப்பு'' என்கிறார் ஐஸ்வர்யா.</p>
+<p class="content">சென்னை, பெரம்பூர் கே.ஆர்.எம். பப்ளிக் பள்ளியில் படிக்கிறார் ஐஸ்வர்யா. சக மாணவர்களுடன் சேர்ந்து ஒரு குழுவை அமைத்தார். அவர்கள் உருவாக்கியதுதான் இந்த மென்பொருள்.</p>
+<p class="content">''நாம் அன்றாடம் இதுபோன்ற பிரச்னைகளை ஒரு புகைப்படம் எடுத்து, சென்னை மாநகராட்சியின் குறை தீர்க்கும் பகுதிக்கு உடனடியாக அனுப்ப, இந்த மென்பொருள் பயன்படும்'' என்கிறார் ஐஸ்வர்யா.</p>
+<p class="content">இது தவிர, 6 மற்றும் 7-ம் வகுப்பு மாணவர்கள், ஏழு குழுக்களாகப் பிரிந்து, ஏழு விதமான மென்பொருளை உருவாக்கி இருக்கிறார்கள். 7-ம் வகுப்பு மாணவி பிரீத்தா மற்றும் ஃபைசா பாத்திமா, கணிதத்தை எளிமையாகக் கற்றுக்கொள்ளும் வகையில், 'மேத் ஆப்’ உருவாக்கி உள்ளனர். இதேபோல, 'வொண்டர் ஆப்’ எனும் மென்பொருள், உலகின் ஏழு அதிசயங்கள், இந்தியாவின் மாநிலங்கள் என்று மாணவர்களின் பொது அறிவுக்குப் பெரும்தீனியாக அமைந்துள்ளது.</p>
+<p style="text-align: center"><img alt="" width="600" height="278" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch04a(1).jpg"></p>
+<p class="content">''சாலை விபத்துகளுக்குக் காரணம், சாலை விதிகளை முறையாகக் கடைப்பிடிக்காததுதான். இதுக்கு எங்களால் முடிந்த சின்ன விஷயம் இது'' என்கிறார் ஃபர்ஹத்ஷா. இவரது குழு உருவாக்கி இருக்கும் மென்பொருள், சாலை விதிகளையும் பாதுகாப்பான சாலைப் பயன்பாடு பற்றியும் தெரிந்துகொள்ளும் விதத்தில் அமைந்திருக்கிறது.</p>
+<p class="content">''எங்கள் பள்ளியில், 80 மாணவர்களுக்கு ஜாவா புரோகிராம் பயிற்சியை நான்கு மாதங்கள் அளித்தோம். அதில் தேர்வு செய்த 30 மாணவர்களே, இந்த ஏழு ஆண்ட்ராய்டு அப்ளிகேஷனை உருவாக்கினார்கள்'' என்றார், பள்ளியில் முதல்வர் சிவசக்தி பாலன்.</p>
+<p class="content">மாணவர்களின் இந்த முயற்சிக்கு முக்கியக் காரணமாக இருந்த பள்ளியின் கணினிப் பொறியாளர் ஆர்.ஜே. தாயுமானசாமி, ''இந்த மென்பொருளை கூகுள் பிளே ஸ்டோரில் இருந்து இலவசமாக இறக்கம் செய்து பயன்பெறலாம்'' என்றார்.</p>
+<p style="text-align: center"><img alt="" width="600" height="343" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch04b(1).jpg"></p>
+<p class="content">மென்பொருளை உருவாக்கிய ஒவ்வொரு குழுவும் அதுபற்றி எளிமையாக மற்றவர்களுக்கு விளக்கிக் கூறுகிறார்கள். மாணவர்கள் கேட்கும் சந்தேகங்களை உடனே தீர்த்துவைக்கிறார்கள்.</p>
+<p class="content">''வீடியோ கேம், படங்கள் பார்ப்பது என தொழில்நுட்ப வளர்ச்சியைப் பொழுதுபோக்காக மட்டும் இன்றி சமூகத்துக்குப் பயன்தரும் விதத்தில் நாங்கள் பயன்படுத்துவோம்'' எனப் பெருமிதத்துடன் சொல்கிறார்கள், ஆண்ட்ராய்டு மாணவர்கள்.</p>
+</div>
+</div> </div><div data-role='page' class='AjayPageDiv' style="width:94%; margin-left:3%"> <div class="art_content">
+<div class="title1">மேடையில் முழுசா யானையைக் காணோம் !</div>
+<div class="subtitle1">ஜிக்..ஜிக்..மேஜிக்...</div>
+<div class="subtitle2"></div>
+<div class="content" style="border-top:1px solid #DDD;">
+<p class="content">''என்னாச்சு..? ஸ்டேஜுக்கு யானை வந்துச்சு... பாக்ஸ் மாதிரி நான்கு பக்கங்களிலும் ஸ்கிரீன் போட்டு மறைச்சாங்க... ஒண்ணு, ரெண்டு எண்ணச் சொன்னாங்க... அரை நிமிஷம்தான். ஸ்கிரீனைத் திறந்தா, யானையைக் காணோம்!''</p>
+<p class="content">அந்த மேஜிக் ஷோவைப் பார்த்துவிட்டு வெளியே வந்தவர்களிடம் உற்சாக வியப்பு.</p>
+<p style="text-align: center"><img alt="" width="350" height="252" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch59b.jpg"></p>
+<p class="content">ஆசியாவின் அதிவேக மேஜிக்மேன், ஜாதுகார் கரண். இந்தக் கோடை விடுமுறையில்... சென்னை, ராஜா அண்ணாமலை மன்றத்தில், தனது தந்திரக் காட்சிகளால் எல்லோரையும் கவர்ந்துவருகிறார். மே 18-ம் தேதி வரை நடக்கப்போகிறது மேஜிக் மேளா. சுட்டி விகடன் ஸ்பெஷல் விருந்தினராக, ஒரு காட்சிக்கு 300 பேரை அழைத்துச் சென்றிருந்தோம்.</p>
+<p class="content">'' 'இவர் செய்யும் தந்திரத்தை எப்படியாவது கண்டுபிடிக்கிறேன் பார்’னு ஃப்ரெண்ட்ஸ்கிட்டே பெட் கட்டிட்டு, கவனமாப் பார்த்தேன். ஆனா, ஒவ்வொரு மேஜிக்கும் பெர்பெக்ட். அமெரிக்காவின் சுதந்திர தேவி சிலையின் மாதிரியை, மேடையில் ஸ்டெப் பை ஸ்டெப்பா மறையவெச்சது வொண்டர்ஃபுல்'' என்ற சந்தோஷ் கண்களில் வியப்பு.</p>
+<p style="text-align: center"><img alt="" width="600" height="232" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch59a.jpg"></p>
+<p class="content">''பெட்டிக்குள்ளே ஒரு அண்ணனைப் படுக்கவெச்சு, அந்தப் பெட்டியை எட்டு துண்டுகளாகப்  பிரிச்சப்போ பயந்துட்டேன். பாவம், அவர் என்ன ஆனாரோனு கவலைப்பட்டேன். மறுபடியும் பெட்டியை ஒண்ணுசேர்த்து, அந்த அண்ணன் ஒரு கீறல்கூட இல்லாம வெளியே வந்ததைப் பார்த்ததும் சந்தோஷமா இருந்துச்சு'' என்ற பவித்ரா முகத்தில் பொங்கும் மகிழ்ச்சி.</p>
+<p class="content">''எனக்கு ரொம்பப் பிடிச்சது... அந்தரத்தில் மிதக்கும் பாரத மாதா. இந்திய வரைபடத்தில் பாரத மாதா நிற்கும் ஓவியத்தைப் பார்த்திருக்கேன். இங்கே, நிஜமாவே ஒரு பெண்ணை, பாரத மாதா வேடத்தில் அந்தரத்தில் மிதக்கவெச்சது அருமை!'' என்றான் ஹிதேந்திரன்.</p>
+<p class="content">'' 'இதெல்லாம் சாம்பிள்தான். என்னோட ஹைலைட் பின்னாடி இருக்கு’னு அவர் சொன்னப்பவே, யானையாத்தான் இருக்கும்னு நினைச்சேன். என் தங்கச்சிகிட்டே இருந்து ஒரு சாக்லேட்டை மறைக்கவே  படாதபாடு படுவேன். இவர், யானையையே மறைய வெச்சுட்டாரே...'' என்றாள் தாருண்யா.</p>
+<p style="text-align: center"><img alt="" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch59c.jpg"></p>
+<p class="content">அவர்களிடம் பேசப் பேச தீராத வியப்பு. மேஜிக் ஷோ ஆரம்பிப்பதற்கு முன்பே, ஜாதுகார் கரணுடன் கலகலப்பாக உரையாடினர்.</p>
+<p class="content">''உங்களைப் பற்றி கொஞ்சம் சொல்லுங்களேன்''</p>
+<p class="content">''நான் குஜராத்தைச் சேர்ந்தவன். மிகச் சாதாரண குடும்பத்தில் பிறந்தவன். அதிகம் படிக்கலை. எல்லாமே அனுபவக் கல்விதான். குஜராத்தி, ஹிந்தி, ஆங்கிலம் நல்லாத் தெரியும். கொஞ்சம் கொஞ்சம் தமிழ் தெரியும்'' என்று தமிழில் கொஞ்சினார்.</p>
+<p class="content">''உங்களை அதிவேக மந்திரக்காரர்னு  சொல்றாங்களே, ஒரு மேஜிக்கை எத்தனை நிமிஷத்துல செய்வீங்க?''</p>
+<p class="content">''மறையவைக்கும் முக்கியமான சில மேஜிக்கை ஐந்து நொடிகளில் செஞ்சிருவேன்''</p>
+<p class="content"><span style="color: #800080">''இதுவரைக்கும் எத்தனை ஷோஸ் செஞ்சிருப்பீங்க?'' </span></p>
+<p style="text-align: center"><img alt="" width="600" height="273" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch59d.jpg"></p>
+<p class="content">''16 ஆயிரத்துக்கும் மேலே செஞ்சிருக்கேன். சென்னைக்கு வர்றது இது மூணாவது முறை. எனக்கு தமிழ்நாட்டின் சில விஷயங்கள் ரொம்பப் பிடிக்கும். தாய்மொழிப் பற்றில் சிறந்து விளங்குறீங்க. கமலஹாசன் ரசிகன் நான். அவர் அற்புதமான நடிகர். அப்புறம், எனக்கு ரொம்பப் பிடிச்சது... உங்க ஊர் சாம்பார். ருசிச்சுச் சாப்பிடுவேன். ப்பா...'' என்று கண்களை மூடி, நாக்கைச் சப்புக்கொட்டினார்.</p>
+<p class="content"><span style="color: #800080">''மேஜிக்கை நாங்களும் கற்றுக்கொள்ள முடியுமா?'' </span></p>
+<p class="content">''நிச்சயமா! இது மாயமோ, மந்திரமோ கிடையாது. ஜாதுகார் என்றால், 'மந்திரவாதி’னு அர்த்தம். ஆனா, அது கேட்சிங்கா இருக்கிறதுக்காக வெச்சுக்கிட்டது. மற்றபடி, நான் மந்திரவாதி இல்லை. எல்லாமே ட்ரிக்ஸ்தான். மேஜிக்கில் ஒவ்வொரு நொடியும் முக்கியம். சரியான நேரத்துக்குள் அந்த ட்ரிக்ஸை செய்துட்டால், நீங்களும் மேஜிக் நிபுணர்தான். உங்ககிட்டே யாராவது, எந்த விஷயத்திலாவது மந்திரம், மாயம்னு சொன்னாலும் பயப்படாதீங்க. மன தைரியம்தான் சிறந்த மந்திரம். அந்த மந்திரம் உங்ககிட்டே இருந்தால் போதும். எல்லாவற்றிலும் வெற்றிதான்.''</p>
+<p class="content">அவரது மேஜிக் போலவே பேச்சும் நச் என இருந்தது.</p>
+<p style="text-align: right"><img alt="" align="right" width="229" height="93" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch60a.jpg"></p>
+</div>
+</div> </div><div data-role='page' class='AjayPageDiv' style="width:94%; margin-left:3%"> <div class="art_content">
+<div class="title1">விருந்தாளி !</div>
+<div class="subtitle1"></div>
+<div class="content" style="border-top:1px solid #DDD;">
+<p style="text-align: center"><img width="600" height="868" alt="" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch84a.jpg"></p>
+<p style="text-align: center"><img alt="" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch85.jpg"></p>
+<p style="text-align: center"><img width="600" height="868" alt="" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch86.jpg"></p>
+<p style="text-align: center"><img alt="" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch87.jpg"></p>
+<p class="content"> </p>
+</div>
+</div> </div><div data-role='page' class='AjayPageDiv' style="width:94%; margin-left:3%"> <div class="art_content">
+<div class="title1">சுட்டி மனசு !</div>
+<div class="subtitle1"></div>
+<div class="content" style="border-top:1px solid #DDD;">
+<p style="text-align: center"><img alt="" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch31.jpg"></p>
+<p style="text-align: center"><img width="600" height="799" alt="" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch30b.jpg"></p>
+<p class="content"> </p>
+</div>
+</div> </div><div data-role='page' class='AjayPageDiv' style="width:94%; margin-left:3%"> <div class="art_content">
+<div class="title1">3D கொண்டாட்டம் !</div>
+<div class="subtitle1"></div>
+<div class="content" style="border-top:1px solid #DDD;">
+<p class="content">''சுட்டி விகடனின் 3D கொண்டாட்டம், சம்மர் ஸ்பெஷல் ட்ரீட். இந்த விடுமுறையை மறக்கவே மாட்டோம்'' என்கிறார்கள், தருமபுரி மாவட்டம், பள்ளப்பட்டி ஊராட்சி ஒன்றிய நடுநிலைப் பள்ளி மாணவ, மாணவிகள்.</p>
+<p class="content">எஃப்.ஏ. பக்கங்களில் தொடர்ந்து அசத்திவரும் இவர்கள், இதழ் வெளியானதுமே 3D புத்தகத்துடன் புகைப்படம் எடுத்து அனுப்பினார்கள். ''16 பக்கங்களுமே பிரமிக்கவைத்தன. அடையாறு ஆலமரம், மதுரை நாயக்கர் மகால், சமணர் குகை எல்லாவற்றையும் 3D கண்ணாடி மூலம் பக்கத்தில் பார்த்தோம். அடுத்த இதழுக்கு இப்பவே சொல்லிவிட்டோம். புத்தகத்தை உடனடியாக எங்களுக்கு கிடைக்கச் செய்த, அறிவியல் ஆசிரியர் குணசேகரன் சாருக்கு தேங்க்ஸ்'' என்று உற்சாகக் கடிதம் அனுப்பி இருந்தார்கள்.</p>
+<p style="text-align: center"><img alt="" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch34a.jpg"></p>
+<p class="content">இவர்களைப் போலவே பல்வேறு ஊர்களில் இருந்தும் கடிதங்கள், இ-மெயில், தொலைபேசி மூலம் அட்டகாசமான வரவேற்பு. இதோ, இந்த இதழிலும் 3D கொண்டாட்டம் தொடர்கிறது.  </p>
+<p class="content"> </p>
+<p class="content"> </p>
+<p class="content"> </p>
+<p class="content">3D கண்ணாடி, பட்டையாக இருக்கும். அதை, 'ப’ வடிவத்தில் மடியுங்கள்.</p>
+<p class="content"> மூக்குக்கண்ணாடி அணிந்திருப்பவர்கள், அதன் மேலேயே இந்தக் கண்ணாடியைப் போட்டுக்கொள்ளலாம்.</p>
+<p class="content">3D படங்களை நல்ல வெளிச்சத்தில் பார்ப்பது முக்கியம். ஒரு படத்தின் முழுமையான முப்பரிமாணத்தை அனுபவிக்க, ஒவ்வொரு பகுதியையும் அவசரப்படாமல், பொறுமையாக ரசியுங்கள்.</p>
+<p class="content">முகத்துக்கு நேராகப் பார்க்காமல், புத்தகத்தை சற்றே சாய்வாகப் பிடித்துப் பார்த்தால், 3ஞி 'எஃபெக்ட்’ இன்னும் அருமையாக இருக்கும். சற்றே இட, வலமாக அசைத்தால், பிரமிப்பு கூடும். கை விரல்களைப் படத்தில் ஆங்காங்கே வைத்தும் ஆழம், தூரம் என ரசித்து மகிழுங்கள்.</p>
+<p class="content">முக்கியமான ஒரு விஷயம்.... 3ஞி படங்கள் அல்லாத மற்ற பக்கங்களைக் கண்ணாடி அணிந்தபடி பார்க்காதீர்கள்... படிக்காதீர்கள். அது, கண்களுக்குத் தேவையற்ற வேலையைக் கொடுத்து, தொந்தரவை உண்டாக்கும்.</p>
+<p class="content">இனி என்ன? 3D உலகில் நுழையுங்கள்!</p>
+</div>
+</div> </div><div data-role='page' class='AjayPageDiv' style="width:94%; margin-left:3%"> <div class="art_content">
+<div class="title1">சாலை விதிகளை மதிப்போம் !</div>
+<div class="subtitle1"></div>
+<div class="content" style="border-top:1px solid #DDD;">
+<p style="text-align: center"><img width="600" height="864" alt="" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch68.jpg"></p>
+<p class="content"> </p>
+</div>
+</div> </div><div data-role='page' class='AjayPageDiv' style="width:94%; margin-left:3%"> <div class="art_content">
+<div class="title1">தீர்த்துளி..உயிர்த்துளி !</div>
+<div class="subtitle1"></div>
+<div class="content" style="border-top:1px solid #DDD;">
+<p style="text-align: center"><img width="600" height="838" alt="" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch70.jpg"></p>
+<p class="content"> </p>
+</div>
+</div> </div><div data-role='page' class='AjayPageDiv' style="width:94%; margin-left:3%"> <div class="art_content">
+<div class="title1">விதவிதமான மடிக்கணினி !</div>
+<div class="subtitle1"></div>
+<div class="content" style="border-top:1px solid #DDD;">
+<p style="text-align: center"><img alt="" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch72.jpg"></p>
+<p class="content"> </p>
+</div>
+</div> </div><div data-role='page' class='AjayPageDiv' style="width:94%; margin-left:3%"> <div class="art_content">
+<div class="title1">அழகுத் தோட்டம் !</div>
+<div class="subtitle1"></div>
+<div class="content" style="border-top:1px solid #DDD;">
+<p style="text-align: center"><img width="600" height="817" alt="" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch74a.jpg"></p>
+<p class="content"> </p>
+</div>
+</div> </div><div data-role='page' class='AjayPageDiv' style="width:94%; margin-left:3%"> <div class="art_content">
+<div class="title1">உயிர்க்கோளம் !</div>
+<div class="subtitle1"></div>
+<div class="content" style="border-top:1px solid #DDD;">
+<p style="text-align: center"><img width="586" height="863" alt="" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch69.jpg"></p>
+<p class="content"> </p>
+</div>
+</div> </div><div data-role='page' class='AjayPageDiv' style="width:94%; margin-left:3%"> <div class="art_content">
+<div class="title1">வண்ணப் புழுக்கள் !</div>
+<div class="subtitle1"></div>
+<div class="content" style="border-top:1px solid #DDD;">
+<p style="text-align: center"><img alt="" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch67a.jpg"></p>
+<p class="content"> </p>
+</div>
+</div> </div><div data-role='page' class='AjayPageDiv' style="width:94%; margin-left:3%"> <div class="art_content">
+<div class="title1">சிரிக்கும் பட்டம் !</div>
+<div class="subtitle1"></div>
+<div class="content" style="border-top:1px solid #DDD;">
+<p style="text-align: center"><img alt="" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch71a.jpg"></p>
+<p class="content"> </p>
+</div>
+</div> </div><div data-role='page' class='AjayPageDiv' style="width:94%; margin-left:3%"> <div class="art_content">
+<div class="title1">மீண்டும் வந்த தேசத் தலைவர்கள் !</div>
+<div class="subtitle1"></div>
+<div class="content" style="border-top:1px solid #DDD;">
+<p style="text-align: center"><img alt="" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch73b.jpg"></p>
+<p class="content"> </p>
+</div>
+</div> </div><div data-role='page' class='AjayPageDiv' style="width:94%; margin-left:3%"> <div class="art_content">
+<div class="title1">டியாண்டோல் போட்டி !</div>
+<div class="subtitle1"></div>
+<div class="content" style="border-top:1px solid #DDD;">
+<p style="text-align: center"><img alt="" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch75a.jpg"></p>
+<p class="content"> </p>
+</div>
+</div> </div><div data-role='page' class='AjayPageDiv' style="width:94%; margin-left:3%"> <div class="art_content">
+<div class="title1">வலை உலா -  விடுமுறை..விஞ்ஞானம்...விளையாட்டு !</div>
+<div class="subtitle1">சைபர்சிம்மன் படங்கள் : ப.சரவணகுமார் </div>
+<div class="subtitle2"></div>
+<div class="content" style="border-top:1px solid #DDD;">
+<p style="text-align: center"><img alt="" width="500" height="260" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch28b.jpg"></p>
+<p style="text-align: center"><img alt="" width="384" height="44" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch28e.jpg"></p>
+<p class="content">விடுமுறை நாட்கள் தொடங்கியாச்சு. வழக்கமான வீடியோ கேம்களும், ஆங்ரி பேர்டு விளையாட்டும் அலுத்துவிட்டதா? இணையத்தில் அற்புதமான விளையாட்டுகளை வழங்கும் பல இணையதளங்கள் இருக்கின்றன.</p>
+<p class="content">எஜுகேஷன் ஜிலாப் (<a href="http://education.jlab.org/indexpages/elementgames.html)%C2%A0%20%E0%AE%85%E0%AE%AE%E0%AF%86%E0%AE%B0%E0%AE%BF%E0%AE%95%E0%AF%8D%E0%AE%95">http://education.jlab.org/indexpages/elementgames.html)</a> அமெரிக்க தேசிய ஆய்வுக்கூடமான, ஜெபர்ஸன் லேப் சார்பில் சிறுவர், சிறுமிகளுக்காக அமைக்கப்பட்டுள்ள இணையதளம். என்னது, விடுமுறையிலும் அறிவியலா என அலற வேண்டாம். இந்தத் தளத்தில் உள்ள விஞ்ஞான விளையாட்டுகள் உங்களை உற்சாகத்தில் ஆழ்த்தும். அறிவியல் தகவல்களையும் தெரிந்துகொள்ளலாம்.</p>
+<p class="content">இதில், விஞ்ஞான லட்சாதிபதி எனும் விளையாட்டை ஆடிப்பார்க்கலாமா? (http://education.jlab.org/million)நம்ம அமிதாப்ஜி நடத்திய குரோர்பதி நிகழ்ச்சி மாதிரியான விளையாட்டு இது.  கேள்விகள் அனைத்தும் அறிவியல் தொடர்பானவை. ஒவ்வொரு கேள்வியாக வரிசையாகக் காண்பிக்கப்படும். அதற்குச் சரியான விடை சொன்னால், அடுத்த கேள்விக்கு முன்னேறலாம்.</p>
+<p class="content">ஒரு கேள்விக்கு நான்கு பதில்கள். அவற்றில், சரியான பதிலை 'க்ளிக்’ செய்ய வேண்டும். நன்றாகப் பதில் தெரிந்தால், உடனே க்ளிக் செய்யலாம். அப்போது, இதுதான் சரியான பதிலா, உறுதியாகத் தெரியுமா? என்று குரோர்பதி பாணியிலேயே கேட்கும். உறுதியாகத் தெரிந்தால், ஆம் என க்ளிக் செய்யலாம். இல்லையா, வல்லுநரின் உதவியை நாடலாம். 50:50 வாய்ப்பைப் பயன்படுத்தலாம். இப்படி, ஒவ்வொரு கட்டமாக முன்னேறி வெற்றிபெற்றால், நீங்கள்தான் விஞ்ஞான லட்சாதிபதி. ஆனால், நிஜமான பணம் கிடையாது. ஒரு ஊக்கத்துக்காக, டாலர்களை வென்றதாக நினைத்துக்கொள்ளலாம்.</p>
+<p style="text-align: center"><img alt="" width="500" height="348" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch28c.jpg"></p>
+<p class="content">இதேபோல, இன்னும் பல விளையாட்டுகளும் அறிவியல் பகுதியில் இருக்கின்றன. அதில் ஒன்று, குறுக்கெழுத்துப் புதிர்கள். அணுக்கள், சூரிய மண்டலம், உடல்கூறு, இயந்திரங்கள் என ஏதாவது ஒரு தலைப்பைத் தேர்வுசெய்து, குறுக்கெழுத்துப் புதிரை விடுவிக்க, http://education.jlab.org/sciencecrossword/பகுதிக்குச் செல்லலாம்.  குறுக்கெழுத்துப் புதிர்களை, பி.டி.எஃப் வடிவில் எடுத்தும் நண்பர்களோடு சேர்ந்து விளையாடலாம்.</p>
+<p class="content">அறிவியல் போலவே, கணிதம் சார்ந்த விளையாட்டுகளும் இருக்கின்றன. புதிர் கணிதம் எனும் விளையாட்டு மூலம், உங்கள் நண்பர்கள் மனதில் நினைக்கும் ரகசிய எண்ணைக் கண்டுபிடித்து அசத்தலாம் (http://education.jlab.org/mysterymath). மின்னல் வேக கணித விளையாட்டுகளும் வியப்பில் ஆழ்த்தும்.</p>
+<p style="text-align: center"><img alt="" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch28d.jpg"></p>
+<p class="content">விஞ்ஞானம் என்றால், பரிசோதனைகள் இல்லாவிட்டால் எப்படி? காற்று அடைத்த பலூனை திரவ நைட்ரஜனில் அழுத்தினால் என்ன ஆகும்?  (http://education.jlab.org/frost) வீடியோவில் விளக்கமான பதில் இருக்கிறது. யூ டியூப் வீடியோக்கள் போல இந்தப் பகுதியில் விஞ்ஞான விளக்க வீடியோக்களைப் பார்த்து ரசிக்கலாம். இந்த இணையதளத்தை புக்மார்க் செய்துவிட்டீர்களா நண்பர்களே?</p>
+<p style="text-align: center"><img alt="" width="600" height="158" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch28a.jpg"></p>
+</div>
+</div> </div><div data-role='page' class='AjayPageDiv' style="width:94%; margin-left:3%"> <div class="art_content">
+<div class="title1">சூப்பர் 6</div>
+<div class="subtitle1"></div>
+<div class="content" style="border-top:1px solid #DDD;">
+<p style="text-align: center"><img width="600" height="782" alt="" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch10a.jpg"></p>
+<p style="text-align: center"><img alt="" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch11a.jpg"></p>
+<p class="content"> </p>
+</div>
+</div> </div><div data-role='page' class='AjayPageDiv' style="width:94%; margin-left:3%"> <div class="art_content">
+<div class="title1">மை டியர் ஜீபா...</div>
+<div class="subtitle1">ஓவியம் : ஹாசிப்கான் </div>
+<div class="subtitle2"></div>
+<div class="content" style="border-top:1px solid #DDD;">
+<p class="content"><span style="color: #800080">''டி.வி.க்கு அருகில் நம் கையைக் கொண்டுபோனால், கை முடிகள் சிலிர்த்து எழுகிறதே... காரணம் என்ன ஜீபா?'' </span></p>
+<p style="text-align: right"><span style="color: #808000">- மா.க.செல்வபிரகாஷ், பாப்பம்மாள்புரம். </span></p>
+<p class="content">''அதற்குக் காரணம், 'ஸ்டாட்டிக் எலெக்ட்ரிசிட்டி’ எனப்படும் மின்காந்த விதி. தொலைக்காட்சிப்பெட்டியின் திரையை மின்னணுக் கதிர்கள் வேகமாகத் தாக்கும்போது, அந்தக் கதிர்கள் மின்னூட்டம் பெற்ற அயனிகளைத் (Ions) திரையில் உருவாக்குகின்றன. நேர், எதிர் மின்னேற்றம் அல்லாத நடுநிலை மின்னேற்றம் செய்யப்பட்ட உங்கள் கையின் ரோமங்களால், தாமும் நடுநிலை மின்னேற்றம் பெற முயற்சிக்கும் அயனிகள்,  முடிகளை ஈர்க்கின்றன. இதனால்தான் முடிகள் சிலிர்க்கின்றன.''</p>
+<p style="text-align: center"><img alt="" width="600" height="443" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch12a(1).jpg"></p>
+<p class="content"><span style="color: #800080">''ஹலோ ஜீபா... காய்ச்சல் இருக்கும்போது, உடலின் வெப்பம் அதிகரிக்கிறது. அப்படி வெப்பம் அதிகரிக்கும்போது, நமக்கு வியர்க்காமல் குளிர்வது ஏன்?'' </span></p>
+<p style="text-align: right"><span style="color: #808000">- க.பிரியங்கா, திருக்கோவிலூர். </span></p>
+<p class="content">''நமது மூளையில் இருக்கும் ஹைப்போதாலமஸ் (Hypothalamas) எனும் பகுதிதான், உடலின் வெப்பநிலையை சீராகப் பராமரிக்கிறது. நமக்குக் காய்ச்சல் வரும்போது, உடல் வெப்பநிலை உயர்வதற்குக் காரணமும் இதுதான். காய்ச்சலின்போது, உடலானது  ஹைப்போதாலமஸுக்கு, வெப்பநிலைப் பராமரிப்புப் புள்ளியை அதிகரிக்கச் சொல்லி, சிக்னல்களை அனுப்பும். உடலில் வைரஸ் அல்லது பாக்டீரியா தொற்று ஏற்படும்போது, உடலின் பதில் விளைவு இது. நோய்த் தொற்றுக்குப் பதில் விளைவாக, நோய் எதிர்ப்பு சக்தி செல்கள், 'எண்டோஜெனஸ் பைரோஜெனஸ்’ என்னும் மூலக்கூறுகளைச் சுரக்கும். அந்த மூலக்கூறுகள், ரத்தத்தில் பயணித்து, ஹைப்போதாலமஸை அடையும். இங்கேதான் உடல் வெப்பநிலையின் பராமரிப்புப் புள்ளி அதிகரிக்கப்படும். ஹைப்போதாலமஸ், 'குளிர்கிறது’ என்ற சமிக்ஞையை உடலுக்கு அனுப்பும். குளிரால் உடல் நடுங்கும் செயலும் உடலுக்கான ஒரு சமிக்ஞையே. தசைகளின் அசைவு மூலம் வெப்பத்தை உற்பத்திசெய்து, உடலைக் கதகதப்பாக வைத்துக்கொள்ள வேண்டும் என்ற சிக்னல் அது. வியர்வை என்பது, உடல் குளிர்ச்சியாக இருக்க வேண்டும் என்பதற்கான சிக்னல். நம் உடலில்  இதுபோன்ற பல நுணுக்கமான தொழில்நுட்பங்கள் நிகழ்வதால்தான் நாம் சீராக இயங்குகிறோம்.''</p>
+<p style="text-align: center"><img alt="" align="right" width="269" height="196" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch12c(1).jpg"></p>
+<p class="content"><span style="color: #800080">''டியர் ஜீபா... வெளவால்களுக்குப் பகலில் கண் தெரியாது என்பது உண்மையா?'' </span></p>
+<p style="text-align: right"><span style="color: #808000">- டி.மோகன் பிரசாந்த், முடுக்கன்துறை. </span></p>
+<p class="content">''மிகவும் தவறு. வெளவால்களுக்குப் பகலில் நன்றாகவே கண் தெரியும். மங்கிய வெளிச்சத்திலும்  வெளவால்களால் நன்றாகப் பார்க்க முடியும். முக்கியமாக, பழம் தின்னி வெளவால்கள், நன்கு உப்பிய தன் பெரிய கண்களால், உணவையும் அதற்கான வழியையும்கூடக் கண்டுபிடித்துவிடும். இரவு நேரத்தில் பூச்சிகளைப் பிடித்துத் தின்னும் வெளவால்களுக்கு, கண்களைவிட அதன் புலன்கள்தான் 'பார்ப்பதற்கு’ அதிகம் உதவுகின்றன. அதற்குப் பெயர், 'எக்கோலொகேஷன்’ (echolocation). தங்கள் மூக்கு அல்லது வாயினால் பயங்கரமாக அவை எழுப்பும் ஒலி அலைகள் (நமது காதுகளால் கேட்க முடியாது) அருகில் இருக்கும் பொருள்கள் மேல் பட்டுத் திருப்பி, எதிரொலியாக வரும். அதைவைத்து, அந்தப் பொருள் இருக்கும் இடம், தூரம், வடிவம் போன்றவற்றை வெளவால்கள் தெரிந்துகொள்ளும்.''</p>
+<p class="content"><span style="color: #800080">''ஹாய் ஜீபா... சம்மர் லீவை என்ஜாய் பண்றதுக்கு உருப்படியா ஒரு ஐடியா சொல்லேன்!'' </span></p>
+<p style="text-align: right"><span style="color: #808000">- எஸ்.சௌமியா, தேவனாங்குறிச்சி. </span></p>
+<p class="content">''கோடை விடுமுறை என்பது, உங்களுக்கு இயற்கையும் பள்ளியும் இணைந்து வழங்கும் ஓர் அற்புதமான ஓய்வு நேரம். கத்தரி வெயில் சுட்டெரித்தாலும், நண்பர்களுடன் நாள் முழுதும் விளையாட்டு, குடும்பத்துடன் பயணங்கள் என்று களிக்கும் காலகட்டம் இது. விளையாட்டு தவிர, எவ்வளவோ உபயோகமான விஷயங்கள் செய்யலாம்.</p>
+<p class="content">கிராமத்தில் தாத்தா, பாட்டி இருந்தால், அவர்களுடன் சில நாட்களைக் கழிக்கலாம். சுத்தமான காற்று, நீர், கால்நடைகள், இயற்கையுடன் இணைந்த வாழ்க்கை கிடைக்கும். நம் பாரம்பரிய உணவுகளையும் விழாக்களையும் பழக்கவழக்கங்களையும் தெரிந்துகொள்ளலாம்.</p>
+<p class="content">கலை, விளையாட்டு அல்லது ஒரு மொழியைக் கற்றுக்கொள்ள, பயிற்சி வகுப்புகளில் சேரலாம். ஆனால், அது உங்களுக்கு இன்னொரு சுமை ஆகிவிடாமல், விரும்பிச் செய்யும் விஷயமாக இருக்க வேண்டும்.</p>
+<p style="text-align: center"><img alt="" width="269" height="159" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch12b(1).jpg"></p>
+<p class="content">குடும்பத்தோடு வரலாற்றுச் சிறப்பு மிக்க இடங்கள், மலைவாசஸ்தலங்கள், கடற்கரை நகரங்கள், பிரபல கோயில் நகரங்களுக்கு இன்பச் சுற்றுலா சென்று வரலாம். பல விஷயங்களைத் தெரிந்துகொள்வதோடு, உடலுக்கும் மனதுக்கும் புத்துணர்ச்சி கிடைக்கும்.</p>
+<p class="content">உங்கள் தெரு அல்லது காலனி நண்பர்களுடன் சேர்ந்து, உங்கள் பகுதியைச் சுத்தப்படுத்துதல், ஏழை மாணவர்களுக்கு உதவுதல் என்று பிறருக்கு உபயோகமான செயல்களில் ஈடுபடலாம்.</p>
+<p class="content">வீட்டில் அம்மாவுக்கு உதவலாம். வேலைகளைப் பழகிக்கொள்ளலாம். இது, நீங்களே உங்கள் வேலைகளைச் செய்ய உதவியாக இருக்கும்.</p>
+<p class="content">இதுபோல, எத்தனையோ இனிய விஷயங்களைச் செய்ய, இந்தக் கோடை விடுமுறையைப் பயன்படுத்தலாம்.''</p>
+<p class="content"><span style="color: #800080">''என் இனிய ஜீபா... இரட்டைத் தலைக் குழந்தைகள் பிறப்பதற்குக் காரணம் என்ன?'' </span></p>
+<p style="text-align: right"><span style="color: #808000">- எம்.நவீன்குமார், கோயம்புத்தூர். </span></p>
+<p class="content">''நாம் ஒவ்வொருவருமே, நம்முடைய மரபணுக்களின் (டி.என்.ஏ.) புரோகிராம்படி படைக்கப்பட்டவர்கள். நமக்கு ஒரு தலை, இரு காதுகள், ஒரு வாய், ஒரு மூக்கு என்று அமைவது அந்த புரோகிராமின்படியே. இதில், சிறு குழப்பமோ, பிரச்னையோ ஏற்படும்போது, அந்தக் குழந்தைக்கு பிறவிக் குறைபாடு இருக்கும். இதுபோன்ற அதி தீவிரமான சமயத்தில், இரட்டைத் தலைக் குழந்தைகள் பிறக்கின்றன. கர்ப்ப காலத்தில் எடுத்துக்கொள்ளும் சில வீரிய மருந்துகள், சுற்றுச்சூழல் மாசு, கதிர்வீச்சு போன்ற  விஷயங்கள்தான், டி.என்.ஏ. புரோகிராமில் குறைபாடு ஏற்படக் காரணங்கள். சுற்றுச்சூழலில் அக்கறை காட்ட வேண்டும். சுத்தமான காற்று, நீர், உணவு போன்றவற்றில் கவனம் செலுத்தினால், எதிர்காலத்தில் இரட்டைத் தலைக் குழந்தைகள் உருவாவதைத் தடுக்கலாம்.''</p>
+</div>
+</div> </div><div data-role='page' class='AjayPageDiv' style="width:94%; margin-left:3%"> <div class="art_content">
+<div class="title1">ஏன் இப்படி ?</div>
+<div class="subtitle1"></div>
+<div class="content" style="border-top:1px solid #DDD;">
+<p style="text-align: center"><img width="600" height="885" alt="" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch26a.jpg"></p>
+<p class="content"> </p>
+</div>
+</div> </div><div data-role='page' class='AjayPageDiv' style="width:94%; margin-left:3%"> <div class="art_content">
+<div class="title1">பென் டிரைவ் !</div>
+<div class="subtitle1"></div>
+<div class="content" style="border-top:1px solid #DDD;">
+<p style="text-align: center"><img alt="" width="409" height="307" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch08d.jpg"></p>
+<p class="content">வந்தோரை இன்முகத்துடன் வரவேற்று வாழ்த்துவது தமிழர் பண்பாடு. தேவகோட்டை, சேர்மன் மாணிக்க வாசகம் நடுநிலைப் பள்ளியில் 8-ம் வகுப்பு முடித்த மாணவர்களின் விடைபெறும் விழா, பெற்றோர் மற்றும் ஆசிரியர்கள் முன்னிலையில் ஒளி ஏற்றும் விழாவாக நடைபெற்றது. இதில், முன்னாள் மாணவர்கள், அந்த வகுப்புக்குப் புதிதாக வரும் மாணவர்களை வாழ்த்தி வரவேற்றார்கள். கல்விக் கடவுள் சரஸ்வதியை வணங்கி, பள்ளித் தலைமை ஆசிரியர் லெ.சொக்கலிங்கம் தீப ஒளியை ஏற்றினார். முன்னாள் மாணவர்கள் அனைவரும்  மெழுகுவத்தி தீபம் ஏந்தி, சமூக முன்னேற்றத்துக்கான உறுதிமொழி எடுத்துக்கொண்டனர். பிறகு, ஒளிரும் மெழுகுவத்திகளைப் புதிய மாணவர்களிடம் வாழ்த்திக் கொடுத்து, பிரியாவிடை பெற்றனர். வித்தியாசமான இந்த நிகழ்ச்சி, பெற்றோரிடமும் நெகிழ்ச்சியை உண்டாக்கியது. நட்புக்கு ஒளியேற்றும் விழா!</p>
+<p style="text-align: center"><img alt="" width="239" height="156" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch08c.jpg"></p>
+<p class="content">சமீபத்தில், தோற்றத்திலும், அளவிலும் பூமியைப் போன்று தெரியும் புதிய கோளை நாசா விஞ்ஞானிகள் வான்வெளியில் கண்டுபிடித்துள்ளனர். பூமியில் இருந்து 500 ஒளி ஆண்டுகள் தொலைவில் இருக்கும் இந்தக் கோளில்... மிதமான வெயிலும், மிதமான குளிரும் இருப்பதற்கான வாய்ப்புகள் தெரிகின்றன என்கிறார்கள் நாசா விஞ்ஞானிகள்.  தண்ணீர் இருப்பதற்கான சாத்தியக்கூறும் இருக்கிறதாம். இந்தப் புதிய கோளுக்கு 'கெப்ளர் 186 எஃப்’ என்று பெயரிடப்பட்டுள்ளது. கோள்கள் (கண்டுபிடிப்பு) ஓய்வதில்லை.  </p>
+<p style="text-align: center"><img alt="" width="300" height="468" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch08b.jpg"></p>
+<p class="content"> கோயம்புத்தூர், இந்தியன் பப்ளிக் பள்ளியில் 4-ம் வகுப்பு படிக்கும் ஆதர்ஷினி, லேப்டாப்பைப் பிரித்து, மீண்டும் வேகமாகப் பொருத்துவதில், 'இந்தியா புக் ஆஃப் ரெக்கார்ட்ஸ்’ சாதனை படைத்தவர். 'தமிழ்நாடு புக் ஆஃப் ரெக்கார்ட்ஸ்’, 'ஏசியன் புக் ஆஃப் ரெக்கார்ட்ஸ்’ போன்றவற்றிலும் இடம்பிடித்த இவர், தற்போது உலக சாதனை பட்டியலில் முத்திரை பதித்துள்ளார். லேப்டாப்பை 15 நிமிடம் 23 வினாடிகளில் பிரித்து, நேர்த்தியாகச் சேர்த்த ஆதர்ஷினியின் சாதனையைக் கௌரவித்து, இங்கிலாந்தில் உள்ள  உலக சாதனைப் பல்கலைக்கழகம். வியட்நாமில் நடைபெற்ற ஒரு விழாவில், ஆதர்ஷினிக்கு கௌரவ டாக்டர் பட்டம் வழங்கி சிறப்பித்தது.                </p>
+<p style="text-align: right"><span style="color: #993300">சபாஷ் ஆதர்ஷினி. </span></p>
+<p style="text-align: center"><span style="color: #993300"><img alt="" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch08a.jpg"></span></p>
+<p class="content">சமீபத்தில், கல்லாறு சச்சிதானந்த ஜோதி நிகேதன் பள்ளியில் கோடைப் பயிற்சி முகாம் நடைபெற்றது. நீலகிரி மலையடிவாரத்தில் அமைந்துள்ள இந்தப் பள்ளியில்... யோகா, விளையாட்டு, ஓவியம், கைவினைப் பொருள்கள் தயார்செய்வது, முறையான ஆங்கிலம் கற்றல் ஆகியவற்றுக்கான பயிற்சிகள் அளிக்கப்பட்டன. இதில் கலந்துகொண்ட சுட்டிகளுக்குப் பெரும் உற்சாக விழாவாக அமைந்தது. ''மதிப்பெண்கள் மட்டுமே வாழ்க்கையைத் தீர்மானிக்கும் என்ற பெற்றோர்களின் எண்ணத்தைப் போக்கும் வகையில், நம் பாடத்திட்டம் மாறினால், எதிர்கால இந்தியா வலிமையானதாக மாறும்'' அதற்காகத்தான் இதுபோன்ற கோடைப் பயிற்சிகள் என்கிறார் பள்ளியின் செயலர், சிந்தனைக் கவிஞர் கவிதாசன். குளுகுளு மலையில் ஜிலுஜிலு பயிற்சி!</p>
+</div>
+</div> </div><div data-role='page' class='AjayPageDiv' style="width:94%; margin-left:3%"> <div class="art_content">
+<div class="title1">சுட்டி ஸ்டார் நியூஸ்...</div>
+<div class="subtitle1"></div>
+<div class="content" style="border-top:1px solid #DDD;">
+<p style="text-align: center"><img alt="" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch64b.jpg"></p>
+<p style="text-align: center"><img width="600" height="736" alt="" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch65.jpg"></p>
+<p style="text-align: center"><img alt="" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch66.jpg"></p>
+<p class="content"> </p>
+</div>
+</div> </div><div data-role='page' class='AjayPageDiv' style="width:94%; margin-left:3%"> <div class="art_content">
+<div class="title1">வான் நாயகன் சூரியன் !</div>
+<div class="subtitle1"></div>
+<div class="content" style="border-top:1px solid #DDD;">
+<p style="text-align: center"><img width="600" height="825" alt="" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch16a.jpg"></p>
+<p style="text-align: center"><img alt="" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch17a.jpg"></p>
+<p style="text-align: center"><img alt="" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch18a.jpg"></p>
+<p class="content"> </p>
+</div>
+</div> </div><div data-role='page' class='AjayPageDiv' style="width:94%; margin-left:3%"> <div class="art_content">
+<div class="title1">நண்பர்கள் கிடைச்சாச்சு !</div>
+<div class="subtitle1"></div>
+<div class="content" style="border-top:1px solid #DDD;">
+<p style="text-align: center"><img alt="" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch14b.jpg"></p>
+<p style="text-align: center"><img width="600" height="880" alt="" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch14a.jpg"></p>
+<p class="content"> </p>
+</div>
+</div> </div><div data-role='page' class='AjayPageDiv' style="width:94%; margin-left:3%"> <div class="art_content">
+<div class="title1">அப்பாஜி </div>
+<div class="subtitle1"></div>
+<div class="content" style="border-top:1px solid #DDD;">
+<p style="text-align: center"><img width="600" height="854" alt="" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch22a.jpg"></p>
+<p style="text-align: center"><img alt="" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch23.jpg"></p>
+<p class="content"> </p>
+</div>
+</div> </div><div data-role='page' class='AjayPageDiv' style="width:94%; margin-left:3%"> <div class="art_content">
+<div class="title1">கிட்ஸ்@கிச்சன்.காம்</div>
+<div class="subtitle1"></div>
+<div class="content" style="border-top:1px solid #DDD;">
+<p style="text-align: center"><img alt="" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch19a.jpg"></p>
+<p class="content"> </p>
+</div>
+</div> </div><div data-role='page' class='AjayPageDiv' style="width:94%; margin-left:3%"> <div class="art_content">
+<div class="title1">ஈஸியா செய்யலாம் யோகா! - 12</div>
+<div class="subtitle1"></div>
+<div class="content" style="border-top:1px solid #DDD;">
+<p style="text-align: center"><img alt="" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch27a.jpg"></p>
+<p class="content"> </p>
+</div>
+</div> </div><div data-role='page' class='AjayPageDiv' style="width:94%; margin-left:3%"> <div class="art_content">
+<div class="title1">சுட்டி நாயகி - எம்.எஸ்.சுப்புலட்சுமி</div>
+<div class="subtitle1">ஆயிஷா இரா.நடராசன் படங்கள் : பாரதிராஜா </div>
+<div class="subtitle2"></div>
+<div class="content" style="border-top:1px solid #DDD;">
+<p class="content">'கௌசல்யா சுப்ரஜா... ராம பூர்வா...’</p>
+<p class="content">நான்கே வயதான அந்த மழலையின் கொஞ்சும் குரல் கேட்க, ஒரு கூட்டமே கூடி இருந்தது. தினமும் அதிகாலை நான்கு மணிக்கே எழுந்து, வீட்டுத் திண்ணையில் அமர்ந்து, ஊருக்கே பள்ளி எழுச்சி பாடுவாள் அந்தச் சிறுமி.</p>
+<p class="content">மதுரை நகரில், அதிகாலை பூஜைக்காக கோயிலுக்குப் போகிறவர்கள்... அங்கே நின்று, அந்தச் சிறுமியின் பாடலை பய பக்தியுடன் லயித்துக் கேட்பார்கள். மீனாட்சி அம்மனே குழந்தை வடிவில் வந்து பாடுவதாக மகிழ்வார்கள்.</p>
+<p class="content">சுப்புக்குட்டி, சுப்பி, சுப்பம்மா எனப் பல செல்லப் பெயர்களால் அழைக்கப்படும் அவளது பெயர் சுப்புலட்சுமி.  சமஸ்கிருத சுலோகங்கள், தேவார திருவாசகப் பாடல்கள் என அந்த மழலை எதையும் விட்டுவைக்கவில்லை.</p>
+<p class="content">இசை, அவள் குடும்பத்துடன் ஒன்றியிருந்தது. அம்மா வீணை வாசிப்பில் வாணி. சுப்புவின் பாட்டி அக்கம்மா, வயலின் வாசிப்பில் புகழ்பெற்றவர். அந்தக் கருவிகளின் இனிய நாதத்தின் வழியே சொற்களை அவளால் மனதார உணர்ந்து பாட முடிந்தது.</p>
+<p class="content">அப்போது, சுப்புவுக்கு ஐந்து வயது. அப்போதெல்லாம் மீனாட்சி அம்மன் கோயிலில், ராஜ சபையில் பெரிய பாடகர்களின் கச்சேரி நடக்கும். ஒருநாள், அங்கே பாட வேண்டிய பெரிய பாகவதர் வரவில்லை. திடீரென எப்படி கச்சேரியை ரத்துசெய்வது என, கோயில் நிர்வாகிகள் திணறினார்கள்.</p>
+<p class="content">அப்போது, கூட்டத்தில் இருந்த சுப்பு தைரியமாக அவர்களிடம் சென்று, ''நான் பாடவா?'' என்று கேட்டாள்.  ஒரு மணி நேரத்துக்கும் மேலாகப் பாடி, தான் யார் என்பதை உலகுக்கே உணர்த்தினாள்.</p>
+<p class="content">அப்போதெல்லாம், பெண்கள் மேடையேறி பாடக் கூடாது எனும் விதி இருந்தது. ஆனால், சுப்புவின் திறனை அறிந்து, பெரிய கர்நாடக ஜாம்பவான்களான காரைக்குடி சாம்பசிவ அய்யர், அரியக்குடி ராமானுஜ ஐயங்கார்  போன்றோர், வீடு தேடிவந்து சுப்புவுக்கு சங்கீதம் கற்றுத்தந்தனர். மழவராயனேந்தல் எனும் தொலைதூர ஊரில் இருந்து, சுப்புராம பாகவதர் என்பவர் வாரம் இருமுறை வந்து, சுப்புவுக்கு ராகங்களை ஸ்வரம் பிடிக்கப் போதித்தார்.  திருவையாறில், பஞ்சரத்ன கீர்த்தனைகளை  மாமேதைகளுடன் சரிசமமாக உட்கார்ந்து பாடியபோது, சுப்புவுக்கு வயது ஏழு.</p>
+<p style="text-align: center"><img alt="" width="450" height="589" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch62a.jpg"></p>
+<p class="content">சுப்புவின் குரல் மேலும் மேலும் இனிமையானது. கடவுள் மீதான அவளது ஈர்ப்பு அதில் கலந்துருகி ஓடியது. அகில இந்திய வானொலி நிலையம், தன் அகில இந்திய சங்கீத சம்மேளன நிகழ்ச்சிக்கு, ஒரு மணி நேரம் கச்சேரி செய்ய அழைத்தது. நாடு முழுதும் சுப்புவின் குரல் பரவியபோது அவளது வயது 10.</p>
+<p class="content">திருச்சி மலைக்கோட்டை 100 கால் மண்டபத்தில், அந்தச் சிறுமி பாட அழைக்கப்பட்டாள். உலகப் பிரசித்தி பெற்ற சௌடையா, வயலின். மாமேதை தட்சிணாமூர்த்தி பிள்ளை, மிருதங்கம். பாடிய சுப்புவுக்கோ வயது 11. ஆனால், எந்தப் பயமோ பதற்றமோ இல்லாமல் பாடி அசத்தினாள் சுப்புலட்சுமி.</p>
+<p class="content">விரைவிலேயே, சென்னை மியூசிக் அகாடமியில் பாடும் வாய்ப்பு வந்தது. அந்தச் சிறுமிக்காக, மியூசிக் அகாடமி தனது விதிமுறைகள் பலவற்றை மாற்றி, அவரைப் பாட அழைத்தது. பெண்கள் மேடையேறிப் பாடக் கூடாது எனும் பழைய பஞ்சாங்கங்கள் தூக்கி எறியப்பட்டன.</p>
+<p class="content">அந்தச் சிறுமி சுப்பு, பின்நாட்களில் கர்நாடக சங்கீத மாமேதையாக மாறினார். ஐ.நா. சபை வரை சென்று, தமிழின் சங்கீதப் பாரம்பரியத்தை உலகறிய வைத்தார். விருதுகள் பல அவரைத் தேடிவந்தன. இந்தியாவின் உயர்ந்த 'பாரத ரத்னா’ விருதுபெற்ற எம்.எஸ்.சுப்புலட்சுமி, ஒரு சுட்டி நாயகியாக மிளிர்ந்தார்.</p>
+</div>
+</div> </div><div data-role='page' class='AjayPageDiv' style="width:94%; margin-left:3%"> <div class="art_content">
+<div class="title1">மாயா டீச்சரின் மந்திரக் கம்பளம்!</div>
+<div class="subtitle1">கே.யுவராஜன்  பிள்ளை </div>
+<div class="subtitle2"></div>
+<div class="content" style="border-top:1px solid #DDD;">
+<p class="content">''ஹேய்... நான் ஒரு நண்டைப் பிடிச்சுட்டேன்... நான் ஒரு நண்டைப் பிடிச்சுட்டேன்'' என்று துள்ளலுடன் ஓடிவந்தான் கதிர். அவன் கையில் ஒரு குட்டி நண்டு.</p>
+<p class="content">அவர்கள் கடற்கரையில் இருந்தார்கள். சற்று முன்பு அந்தப் பகுதியைச் சேர்ந்த சில சிறுவர்கள், சிறு நண்டுகளைப் பிடித்து விளையாடிக்கொண்டிருந்தார்கள்.</p>
+<p class="content">''அது கடிக்காதா டீச்சர்?'' என்று கேட்டாள் கயல்.</p>
+<p class="content">''அதன் கால்களை லாகவமாகப் பிடிச்சுட்டாப் பயம் இல்லை. அந்த மாதிரி நீங்க யாராவது பிடிச்சுட்டு வந்தால், ஐஸ்க்ரீம் ட்ரீட் தர்றேன்'' என்றார் மாயா டீச்சர்.</p>
+<p class="content">சவாலில் இறங்கினார்கள் நம்ம நண்பர்கள். நண்டுகளுடன் கபடி விளையாடுவது போல, அருகில் செல்வதும் பயந்து ஓடிவருவதுமாக இருந்தார்கள். எப்படியோ கதிர், ஒரு குட்டி நண்டைப் பிடித்துவிட்டான்.</p>
+<p class="content">''இந்தக் குட்டி நண்டைப் பிடிக்கவே இவ்வளவு அமர்க்களம். சரி, சரி அதை விட்டுருங்க'' என்றார் டீச்சர்.</p>
+<p class="content">மணலில் விட்டதும், குடுகுடுவென கடல் அலையை நோக்கி ஓடியது அந்தக் குட்டி நண்டு. ''என்ன ஓட்டம் ஓடுது'' என்று வியந்தாள் ஷாலினி.</p>
+<p style="text-align: center"><img alt="" width="598" height="268" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch76a.jpg"></p>
+<p class="content">''பின்னே, ரெண்டு கால்களோடு நாமே ஓடும்போது, 10 கால்கள் வெச்சுக்கிட்டு சும்மா இருக்குமா? தேள், பூரான் போன்ற கணுக்காலி வகையைச் சேர்ந்தவை இந்த நண்டுகள். கூட்டுக் கண்கள், தட்டையான ஓடு, ஐந்து ஜோடி கால்கள் இருக்கும். இதில் முன் பகுதி கால்கள், கவ்விகளாகச் செயல்படும். பாம்புகள் சட்டையை உறிக்கிற மாதிரி, நண்டுகளும் ஓடுகளைப் புதுப்பிக்கும்'' என்றார் டீச்சர்.</p>
+<p class="content">''நண்டுகள் எங்கெல்லாம் இருக்கு டீச்சர்?'' என்று கேட்டான் அருண்.</p>
+<p class="content">''உலகில் உள்ள எல்லாக் கடல்களிலும் நண்டுகள் இருக்கு. நன்னீரில் வாழும் நண்டுகளும் இருக்கு. சில மில்லி மீட்டரில் ஆரம்பிச்சு, நான்கு மீட்டர்  கால்களோடு பல வகைகளில் இருக்கு'' என்றார் டீச்சர்.</p>
+<p class="content">''என்னது நான்கு மீட்டரா? மனிதனைவிட உயரமாக இருக்குமே...!'' என்றான் கதிர் நம்பமுடியாத குரலில்.</p>
+<p class="content">''உண்மைதான் கதிர். அதைப் பார்க்க நாம ஜப்பான் கடல் பகுதிக்குப் போகணும்'' என்ற டீச்சர், மந்திரக் கம்பளத்தை எடுத்தார்.</p>
+<p class="content">மந்திரக் கம்பளம், ஒரு பெரிய நண்டின் வடிவத்தைப் பெற்றது. அதன் மேலே ஏறிக்கொண்டதும், கடலுக்குள் பாய்ந்தது. நீர்மூழ்கிக் கப்பல் போல கடலுக்குள் விரைந்தது.</p>
+<p style="text-align: center"><img alt="" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch76b.jpg"></p>
+<p class="content">டீச்சர் தொடர்ந்தார். ''உலக அளவில், கடல் வகை உணவுகளில் 20 சதவிகிதம் நண்டுகள் இருக்கு. ஆண்டுக்கு ஒன்றரை மில்லியன் (15 லட்சம்) டன் நண்டுகள் உணவாகின்றன. முன்பு இருந்த பல வகை நண்டுகள், இப்போ அழிவின் விளிம்பில் இருக்கு. ஜப்பானிய சிலந்தி நண்டு (Japanese spider crab) 160; அரிதான ஒரு வகைதான். இதன் அறிவியல் பெயர் Macrocheira kaempferi.பார்ப்பதற்கு சிலந்தி மாதிரி இருப்பதால், சிலந்தி நண்டு என்பார்கள். இது, ஜப்பானின் தெற்குக் கடல் பகுதியில் 2,000 அடி ஆழத்தில் இருக்கும். இவற்றின் கால்கள் மட்டுமே 12 அடி உயரம் இருக்கும்'' என்றார் டீச்சர்.</p>
+<p class="content">மந்திரக் கம்பளம் நின்ற இடத்தில், அந்தப் பிரமாண்டமான நண்டுகளைப் பார்க்க முடிந்தது. குச்சிக் கால்களால் தண்ணீருக்குள் நீந்தியபடியும், பாறைகளில் ஊன்றி நடந்தபடியும் இருந்தன. வியப்புடன் அதன் கால்களுக்கு இடையே புகுந்து வந்தார்கள்.</p>
+<p class="content">''அடேங்கப்பா... ஒரு நண்டு எவ்வளவு கிலோ இருக்கும் டீச்சர்?'' என்று கேட்டாள் கயல்.</p>
+<p class="content">''உடல் பகுதி அதிகபட்சம் 40 சென்டிமீட்டர்தான். அதனால், 19 கிலோ இருக்கும். மனிதர்களால் பிடிக்கப்படாமல் இருந்தால், இந்த நண்டுகள் 100 ஆண்டுகள் உயிர் வாழும்'' என்றார் டீச்சர்.</p>
+<p class="content">''அப்படினா, இந்த நண்டையும் சாப்பிடுவாங்களா?'' என்று கேட்டாள் ஷாலினி.</p>
+<p class="content">''மனிதன் எதைத்தான் விட்டுவெச்சான்.  சிலந்தியைப் பார்த்துட்டோம். அடுத்து, குதிரையைப் பார்ப்போம்'' என்றார் டீச்சர்.</p>
+<p class="content">கம்பளம் அவர்களைச் சுமந்துகொண்டு, ஒரு யு டர்ன் அடித்தது.</p>
+<p style="text-align: center"><img alt="" width="586" height="305" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch76c.jpg"></p>
+<p class="content">''ஒவ்வோர் உயிரினத்துக்கும் முன்னோர் உண்டு. நண்டு இனங்களில் முன்னோடி, குதிரைலாட நண்டுகள் (Horseshoe crab). இதை, அரச நண்டுகள் என்றும் சொல்வாங்க. 450 மில்லியன் ஆண்டுகளுக்கு முன்பே இது தோன்றியிருக்கலாம். அதற்கான பாறைப் படிமங்கள் கிடைச்சு இருக்கு. 300 மில்லியன் ஆண்டுகளாக பெரிய அளவில் பரிணாம மாற்றம் ஏற்படாத நண்டு வகை இது. ஜப்பான் மற்றும் வட அமெரிக்காவில் காணப்படுகிறது'' என்றார் மாயா டீச்சர்.</p>
+<p class="content">மந்திரக் கம்பளம், சேற்றுப்பாங்கான ஓரிடத்துக்கு வந்தது. அங்கே, சேற்று நிறத்திலேயே காணப்பட்ட அந்த நண்டுகள், உடல் முழுவதும் ஓட்டினால் சூழப்பட்டிருந்தது. ஆமை, கூட்டுக்குள் ஒளிந்துகொள்வது போல, இவர்களின் வருகையால், தனது கால்களை ஓட்டுக்குள் இழுத்துக்கொண்டது. கொம்பு போல ஒரு பகுதி மட்டும் வெளியே நீண்டிருந்தது.</p>
+<p class="content">''இதை, நண்டின் வால் என்று சொல்வார்கள். புழுக்கள், பூச்சிகள், சிறுசிறு மீன்களைச் சாப்பிடும். இந்த நண்டுகளைப் பிடிக்கும் மீனவர்கள், தூண்டில் இரையாகப் பயன்படுத்தி, பெரிய மீன்களைப் பிடிப்பாங்க. இந்த நண்டு இனம் மிகவும் குறைந்து வருவதால், சில நாடுகளில் குறிப்பிட்ட காலங்களுக்குப் பிடிக்கத் தடை இருக்கு. நியூ ஜெர்சி போன்ற நாடுகளில் முழுக்கவே தடை இருக்கு'' என்றார் டீச்சர்.</p>
+<p class="content">''அங்கே பாருங்க. ஒரு நண்டின் மேல் ஓடு தனியாக வந்திருச்சு'' என்றான் அருண்.</p>
+<p class="content">''புது ஓடு உருவானதும் இப்படி பழைய ஓடு தனியாக வந்துவிடும். இப்படி ஒவ்வொரு முறையும் புதிய ஓடு தோன்றும்போது அது, பழைய ஓட்டைவிட 33 சதவிகிதம் பெரிதாக இருக்கும். இப்படியே தனது வாழ்நாளில் பல முறை ஓடு உறிச்சு, ஒரு மனிதனின் உள்ளங்கை அளவுக்கு வளரும்'' என்றார் டீச்சர்.</p>
+<p class="content">அடுத்து, மந்திரக் கம்பளம் சென்ற இடத்தில் அழகான வண்ணங்களில் சில நண்டுகளைப் பார்த்தார்கள். நத்தை, சிப்பி போன்றவற்றின் ஓடுகள் போலவே அவற்றின் மேல் ஓடுகள் விதவிதமாக இருந்தன.</p>
+<p class="content">''இது என்ன டீச்சர், நண்டுகள் மாறுவேடப் போட்டிகளில் கலந்துக்குதா?'' என்று சிரிப்புடன் கேட்டான் கதிர்.</p>
+<p style="text-align: center"><img alt="" width="376" height="151" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch76d.jpg"></p>
+<p class="content">''இவைதான் துறவி நண்டுகள் (Hermit crabs). இவற்றில் 1,100 சிற்றினங்கள் இருக்கு. ஒரு நண்டு கழற்றிப்போட்ட ஓட்டுக்குள் இன்னொரு நண்டு புகுந்துக்கும். அதே மாதிரி நத்தை, சிப்பி என எந்த ஓடு கிடைக்குதோ, அந்த ஓட்டில் தன்னை நுழைச்சுக்கும். அது மட்டும் இல்லை. கடல் சாமந்திகளை ஓட்டின் மேலே ஒட்டிக்கிட்டு, எதிரிகள் பக்கத்தில் வரும்போது ஆட்டும். அதைப் பார்த்து, எதிரிகள் பயந்து ஓடிடும்'' என்றார் டீச்சர்.</p>
+<p class="content">''புத்திசாலிதான்'' என்றாள் ஷாலினி.</p>
+<p class="content">''பார்க்க அழகா இருக்கிறதால், இதை சில நாடுகளில் தொட்டில் மீன் மாதிரி வீடுகளில் வளர்க்கிறாங்க. 32 வருடங்கள் உயிர் வாழக் கூடியது. இது தவிர, குறிப்பிட்டுச் சொல்லக்கூடிய ஒரு நண்டு வகை, தமிழ்நாடு மற்றும் இலங்கை போன்ற இடங்களில் இருக்கும் நீலக் கால் நண்டுகள். சுவையான நண்டுகளில் முக்கியமானது'' என்றார் மாயா டீச்சர்.</p>
+<p class="content">''நண்டுகள் எல்லாமே தண்ணீரில்தான் வாழுமா டீச்சர்?'' என்று கேட்டான் கதிர்.</p>
+<p class="content">''ஈரப்பாங்கான நிலத்தில் வாழும் நண்டுகளும் இருக்கு. வயல்களில் குழி தோண்டி, அதில் வசிக்கும் நண்டுகளைக் கிராமங்களில் பார்க்கலாம். தென்னை மரத்தில் ஏறி, அங்கே வசிக்கும் நண்டுகளும் இருக்கு'' என்றார் டீச்சர்.</p>
+<p class="content">''என்னது... தென்னை மரத்தில் நண்டா?'' எனக் கேட்டாள் கயல்.</p>
+<p class="content">''ஆமா கயல். தென்னை மரத்தில் தேள் மட்டும் கொட்டாது. நண்டும் கொட்டும்'' என்றார் டீச்சர்.</p>
+<p class="content">மந்திரக் கம்பளம் கடலில் இருந்து தரைக்கு வந்தது. தென்னை மரங்கள் நிறைந்த கடற்கரைப் பகுதியில் நின்றிருந்தார்கள். ஒரு தென்னை மரத்தில் ஏறும் அந்த நண்டை ஆச்சர்யத்துடன் பார்த்தார்கள்.</p>
+<p class="content">''இதைத் தேங்காய் நண்டு (Coconut crab)என்பார்கள். இந்தியப் பெருங்கடல் மற்றும் பசிபிக் பெருங்கடல் பகுதிகளில் மட்டுமே இருக்கும் அரிய வகை நண்டு இது. தனுஷ்கோடி, அந்தமான் போன்ற இடங்களில் பார்க்கலாம். 40 சென்டிமீட்டர் நீளமும் நான்கு கிலோ எடையும் இருக்கும். கடலில் முட்டையிடும். வெளியே வரும் குஞ்சுகள், சிப்பிகள் மற்றும் நத்தை ஓடுகளில் ஒட்டிக்கொண்டு வளரும். கொஞ்சம் வளர்ந்ததும் கரைக்கு வரும். நிலத்தில் குழியைத் தோண்டி, அதில் தேங்காய் நார்களைப் பரப்பி  வசிக்கும். இதுக்காக, மரத்தில் ஏறி, தேங்காய் நார்களைச் சேகரிக்கும். அப்போது, தேங்காய் பறிக்கிறதுக்காக மரத்தில் ஏறுபவர்கள், கொஞ்சம் அசந்தால், கிடுக்கிப் பிடி பிடிச்சுடும்'' என்றார் டீச்சர்.</p>
+<p class="content">''இனிமே வீட்டில் தேங்காய் உறிக்கிறப்ப, தள்ளியே நிற்கணும்ப்பா'' என்று சிரித்தான் அருண்.</p>
+<p class="content">மந்திரக் கம்பளம் வீடு நோக்கிப் பறந்தது.</p>
+</div>
+</div> </div><div data-role='page' class='AjayPageDiv' style="width:94%; margin-left:3%"> <div class="art_content">
+<div class="title1">ஒரு தேதி..ஒரு சேதி...</div>
+<div class="subtitle1"></div>
+<div class="content" style="border-top:1px solid #DDD;">
+<p style="text-align: center"><img alt="" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch90.jpg"></p>
+<p class="content"> </p>
+</div>
+</div> </div><div data-role='page' class='AjayPageDiv' style="width:94%; margin-left:3%"> <div class="art_content">
+<div class="title1">சுட்டித் தமிழ் </div>
+<div class="subtitle1"></div>
+<div class="content" style="border-top:1px solid #DDD;">
+<p style="text-align: center"><img alt="" width="600" height="849" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch89a.jpg"></p>
+<p class="content"> </p>
+</div>
+</div> </div><div data-role='page' class='AjayPageDiv' style="width:94%; margin-left:3%"> <div class="art_content">
+<div class="title1">ஹலோ சுட்டீஸ்...</div>
+<div class="subtitle1"></div>
+<div class="content" style="border-top:1px solid #DDD;">
+<p style="text-align: center"><img alt="" src="http://www.vikatan.com/chutti/2014/05/mqywuy/images/ch05a.jpg"></p>
+<p class="content"> </p>
+</div>
+</div> </div>
+
+		
+		<div class="footer">
+		
+			<div class="next">
+				<img  src="../../next.gif"/>
+			</div>
+
+			<div class="prev">
+				<img src="../../prev.gif"/>
+			</div>
+
+			<div class="pageNumber">
+				<span></span>
+			</div>
+
+		</div>
+
+		</Body>
+	</HTMl>

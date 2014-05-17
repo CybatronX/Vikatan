@@ -1,3 +1,3 @@
-	$ScriptsHomePath = "C:/Users/ajaydarez/Vikatan/Scripts";
-	$WebHomePath = "C:/Users/ajaydarez/Vikatan/Web";
+	$ScriptsHomePath = "E:/Fun Projects/Vikatan/Scripts";
+	$WebHomePath = "E:/Fun Projects/Vikatan/Web";
 

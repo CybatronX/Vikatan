@@ -1110,3 +1110,99 @@ I, [2014-02-27T00:34:08.607195 #5056]  INFO -- : Program Started
 I, [2014-02-27T00:34:08.607195 #5056]  INFO -- : Log in started
 E, [2014-02-27T00:34:08.637196 #5056] ERROR -- : getaddrinfo: No such host is known. 
 E, [2014-02-27T00:34:08.637196 #5056] ERROR -- : ["C:/Ruby193/lib/ruby/gems/1.9.1/gems/net-http-persistent-2.9.1/lib/net/http/persistent/ssl_reuse.rb:29:in `initialize'", "C:/Ruby193/lib/ruby/gems/1.9.1/gems/net-http-persistent-2.9.1/lib/net/http/persistent/ssl_reuse.rb:29:in `open'", "C:/Ruby193/lib/ruby/gems/1.9.1/gems/net-http-persistent-2.9.1/lib/net/http/persistent/ssl_reuse.rb:29:in `block in connect'", "C:/Ruby193/lib/ruby/1.9.1/timeout.rb:55:in `timeout'", "C:/Ruby193/lib/ruby/1.9.1/timeout.rb:100:in `timeout'", "C:/Ruby193/lib/ruby/gems/1.9.1/gems/net-http-persistent-2.9.1/lib/net/http/persistent/ssl_reuse.rb:29:in `connect'", "C:/Ruby193/lib/ruby/1.9.1/net/http.rb:756:in `do_start'", "C:/Ruby193/lib/ruby/1.9.1/net/http.rb:751:in `start'", "C:/Ruby193/lib/ruby/gems/1.9.1/gems/net-http-persistent-2.9.1/lib/net/http/persistent.rb:692:in `start'", "C:/Ruby193/lib/ruby/gems/1.9.1/gems/net-http-persistent-2.9.1/lib/net/http/persistent.rb:631:in `connection_for'", "C:/Ruby193/lib/ruby/gems/1.9.1/gems/net-http-persistent-2.9.1/lib/net/http/persistent.rb:986:in `request'", "C:/Ruby193/lib/ruby/gems/1.9.1/gems/mechanize-2.7.3/lib/mechanize/http/agent.rb:259:in `fetch'", "C:/Ruby193/lib/ruby/gems/1.9.1/gems/mechanize-2.7.3/lib/mechanize.rb:440:in `get'", "C:/Users/ajaydarez/Vikatan/Scripts/Vikatan.rb:14:in `login'", "C:/Users/ajaydarez/Vikatan/Scripts/Vikatan.rb:279:in `<main>'"]
+I, [2014-05-10T16:07:25.923312 #4272]  INFO -- : 
+
+**********************************************
+I, [2014-05-10T16:07:25.924312 #4272]  INFO -- : Program Started
+I, [2014-05-10T16:07:25.924312 #4272]  INFO -- : Log in started
+I, [2014-05-10T16:07:29.841536 #4272]  INFO -- : Log in completed
+I, [2014-05-10T16:07:29.841536 #4272]  INFO -- : Parsing main page to get links to books
+I, [2014-05-10T16:07:31.296619 #4272]  INFO -- : Getting book:anandha-vikatan with link http://www.vikatan.com/new/magazine.php?module=magazine&mid=1
+I, [2014-05-10T16:07:32.300676 #4272]  INFO -- : Current Edition Date for anandha-vikatan is 14 May 2014
+I, [2014-05-10T16:07:32.300676 #4272]  INFO -- : Checking if current edition was downloaded...
+I, [2014-05-10T16:07:32.300676 #4272]  INFO -- : Did not find current edition.. 
+I, [2014-05-10T16:07:32.300676 #4272]  INFO -- : Getting Current Edition of anandha-vikatan
+I, [2014-05-10T16:07:32.301676 #4272]  INFO -- : Creating folder E:/Fun Projects/Vikatan/Web/anandha-vikatan/14 May 2014
+I, [2014-05-10T16:07:32.301676 #4272]  INFO -- : Folder Created
+I, [2014-05-10T16:07:32.301676 #4272]  INFO -- : Parsing anandha-vikatan to get links
+I, [2014-05-10T16:07:32.306677 #4272]  INFO -- : anandha-vikatan is parsed to get links
+I, [2014-05-10T16:07:32.306677 #4272]  INFO -- : Creating Page Contents
+I, [2014-05-10T16:08:24.381655 #4272]  INFO -- : Page Contents Completed
+I, [2014-05-10T16:08:24.999691 #4272]  INFO -- : Getting book:junior-vikatan with link http://www.vikatan.com/new/magazine.php?module=magazine&mid=2
+I, [2014-05-10T16:08:26.034750 #4272]  INFO -- : Current Edition Date for junior-vikatan is 14 May 2014
+I, [2014-05-10T16:08:26.035750 #4272]  INFO -- : Checking if current edition was downloaded...
+I, [2014-05-10T16:08:26.035750 #4272]  INFO -- : Did not find current edition.. 
+I, [2014-05-10T16:08:26.035750 #4272]  INFO -- : Getting Current Edition of junior-vikatan
+I, [2014-05-10T16:08:26.035750 #4272]  INFO -- : Creating folder E:/Fun Projects/Vikatan/Web/junior-vikatan/14 May 2014
+I, [2014-05-10T16:08:26.036750 #4272]  INFO -- : Folder Created
+I, [2014-05-10T16:08:26.036750 #4272]  INFO -- : Parsing junior-vikatan to get links
+I, [2014-05-10T16:08:26.037750 #4272]  INFO -- : junior-vikatan is parsed to get links
+I, [2014-05-10T16:08:26.038750 #4272]  INFO -- : Creating Page Contents
+I, [2014-05-10T16:08:43.036722 #4272]  INFO -- : Page Contents Completed
+I, [2014-05-10T16:08:43.104726 #4272]  INFO -- : Getting book:aval-vikatan with link http://www.vikatan.com/new/magazine.php?module=magazine&mid=3
+I, [2014-05-10T16:08:44.046780 #4272]  INFO -- : Current Edition Date for aval-vikatan is 20 May 2014
+I, [2014-05-10T16:08:44.046780 #4272]  INFO -- : Checking if current edition was downloaded...
+I, [2014-05-10T16:08:44.046780 #4272]  INFO -- : Did not find current edition.. 
+I, [2014-05-10T16:08:44.047780 #4272]  INFO -- : Getting Current Edition of aval-vikatan
+I, [2014-05-10T16:08:44.047780 #4272]  INFO -- : Creating folder E:/Fun Projects/Vikatan/Web/aval-vikatan/20 May 2014
+I, [2014-05-10T16:08:44.047780 #4272]  INFO -- : Folder Created
+I, [2014-05-10T16:08:44.047780 #4272]  INFO -- : Parsing aval-vikatan to get links
+I, [2014-05-10T16:08:44.049780 #4272]  INFO -- : aval-vikatan is parsed to get links
+I, [2014-05-10T16:08:44.049780 #4272]  INFO -- : Creating Page Contents
+I, [2014-05-10T16:09:46.169333 #4272]  INFO -- : Page Contents Completed
+I, [2014-05-10T16:09:46.277339 #4272]  INFO -- : Getting book:chutti-vikatan with link http://www.vikatan.com/new/magazine.php?module=magazine&mid=4
+I, [2014-05-10T16:09:47.205392 #4272]  INFO -- : Current Edition Date for chutti-vikatan is 15 May 2014
+I, [2014-05-10T16:09:47.205392 #4272]  INFO -- : Checking if current edition was downloaded...
+I, [2014-05-10T16:09:47.206392 #4272]  INFO -- : Did not find current edition.. 
+I, [2014-05-10T16:09:47.206392 #4272]  INFO -- : Getting Current Edition of chutti-vikatan
+I, [2014-05-10T16:09:47.206392 #4272]  INFO -- : Creating folder E:/Fun Projects/Vikatan/Web/chutti-vikatan/15 May 2014
+I, [2014-05-10T16:09:47.206392 #4272]  INFO -- : Folder Created
+I, [2014-05-10T16:09:47.206392 #4272]  INFO -- : Parsing chutti-vikatan to get links
+I, [2014-05-10T16:09:47.226394 #4272]  INFO -- : chutti-vikatan is parsed to get links
+I, [2014-05-10T16:09:47.226394 #4272]  INFO -- : Creating Page Contents
+I, [2014-05-10T16:10:40.635448 #4272]  INFO -- : Page Contents Completed
+I, [2014-05-10T16:10:40.655450 #4272]  INFO -- : Getting book:sakthi-vikatan with link http://www.vikatan.com/new/magazine.php?module=magazine&mid=5
+I, [2014-05-10T16:10:41.584503 #4272]  INFO -- : Current Edition Date for sakthi-vikatan is 13 May 2014
+I, [2014-05-10T16:10:41.584503 #4272]  INFO -- : Checking if current edition was downloaded...
+I, [2014-05-10T16:10:41.585503 #4272]  INFO -- : Did not find current edition.. 
+I, [2014-05-10T16:10:41.585503 #4272]  INFO -- : Getting Current Edition of sakthi-vikatan
+I, [2014-05-10T16:10:41.585503 #4272]  INFO -- : Creating folder E:/Fun Projects/Vikatan/Web/sakthi-vikatan/13 May 2014
+I, [2014-05-10T16:10:41.585503 #4272]  INFO -- : Folder Created
+I, [2014-05-10T16:10:41.585503 #4272]  INFO -- : Parsing sakthi-vikatan to get links
+I, [2014-05-10T16:10:41.587503 #4272]  INFO -- : sakthi-vikatan is parsed to get links
+I, [2014-05-10T16:10:41.587503 #4272]  INFO -- : Creating Page Contents
+I, [2014-05-10T16:11:35.954613 #4272]  INFO -- : Page Contents Completed
+I, [2014-05-10T16:11:35.981614 #4272]  INFO -- : Getting book:nanayam-vikatan with link http://www.vikatan.com/new/magazine.php?module=magazine&mid=6
+I, [2014-05-10T16:11:36.893666 #4272]  INFO -- : Current Edition Date for nanayam-vikatan is 11 May 2014
+I, [2014-05-10T16:11:36.893666 #4272]  INFO -- : Checking if current edition was downloaded...
+I, [2014-05-10T16:11:36.894666 #4272]  INFO -- : Did not find current edition.. 
+I, [2014-05-10T16:11:36.894666 #4272]  INFO -- : Getting Current Edition of nanayam-vikatan
+I, [2014-05-10T16:11:36.894666 #4272]  INFO -- : Creating folder E:/Fun Projects/Vikatan/Web/nanayam-vikatan/11 May 2014
+I, [2014-05-10T16:11:36.895666 #4272]  INFO -- : Folder Created
+I, [2014-05-10T16:11:36.895666 #4272]  INFO -- : Parsing nanayam-vikatan to get links
+I, [2014-05-10T16:11:36.896666 #4272]  INFO -- : nanayam-vikatan is parsed to get links
+I, [2014-05-10T16:11:36.897666 #4272]  INFO -- : Creating Page Contents
+I, [2014-05-10T16:12:27.112539 #4272]  INFO -- : Page Contents Completed
+I, [2014-05-10T16:12:27.145540 #4272]  INFO -- : Getting book:motor-vikatan with link http://www.vikatan.com/new/magazine.php?module=magazine&mid=7
+I, [2014-05-10T16:12:28.179600 #4272]  INFO -- : Current Edition Date for motor-vikatan is 01 May 2014
+I, [2014-05-10T16:12:28.179600 #4272]  INFO -- : Checking if current edition was downloaded...
+I, [2014-05-10T16:12:28.179600 #4272]  INFO -- : Did not find current edition.. 
+I, [2014-05-10T16:12:28.179600 #4272]  INFO -- : Getting Current Edition of motor-vikatan
+I, [2014-05-10T16:12:28.179600 #4272]  INFO -- : Creating folder E:/Fun Projects/Vikatan/Web/motor-vikatan/01 May 2014
+I, [2014-05-10T16:12:28.180600 #4272]  INFO -- : Folder Created
+I, [2014-05-10T16:12:28.180600 #4272]  INFO -- : Parsing motor-vikatan to get links
+I, [2014-05-10T16:12:28.182600 #4272]  INFO -- : motor-vikatan is parsed to get links
+I, [2014-05-10T16:12:28.182600 #4272]  INFO -- : Creating Page Contents
+I, [2014-05-10T16:13:22.567710 #4272]  INFO -- : Page Contents Completed
+I, [2014-05-10T16:13:22.599712 #4272]  INFO -- : Getting book:pasumai-vikatan with link http://www.vikatan.com/new/magazine.php?module=magazine&mid=8
+I, [2014-05-10T16:13:23.628771 #4272]  INFO -- : Current Edition Date for pasumai-vikatan is 25 May 2014
+I, [2014-05-10T16:13:23.628771 #4272]  INFO -- : Checking if current edition was downloaded...
+I, [2014-05-10T16:13:23.628771 #4272]  INFO -- : Did not find current edition.. 
+I, [2014-05-10T16:13:23.629771 #4272]  INFO -- : Getting Current Edition of pasumai-vikatan
+I, [2014-05-10T16:13:23.629771 #4272]  INFO -- : Creating folder E:/Fun Projects/Vikatan/Web/pasumai-vikatan/25 May 2014
+I, [2014-05-10T16:13:23.629771 #4272]  INFO -- : Folder Created
+I, [2014-05-10T16:13:23.629771 #4272]  INFO -- : Parsing pasumai-vikatan to get links
+I, [2014-05-10T16:13:23.631771 #4272]  INFO -- : pasumai-vikatan is parsed to get links
+I, [2014-05-10T16:13:23.631771 #4272]  INFO -- : Creating Page Contents
+I, [2014-05-10T16:14:07.197263 #4272]  INFO -- : Page Contents Completed
+I, [2014-05-10T16:14:07.220264 #4272]  INFO -- : **********************************************
