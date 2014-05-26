@@ -1206,3 +1206,400 @@ I, [2014-05-10T16:13:23.631771 #4272]  INFO -- : pasumai-vikatan is parsed to ge
 I, [2014-05-10T16:13:23.631771 #4272]  INFO -- : Creating Page Contents
 I, [2014-05-10T16:14:07.197263 #4272]  INFO -- : Page Contents Completed
 I, [2014-05-10T16:14:07.220264 #4272]  INFO -- : **********************************************
+I, [2014-05-18T16:20:35.919216 #16172]  INFO -- : 
+
+**********************************************
+I, [2014-05-18T16:20:35.937217 #16172]  INFO -- : Program Started
+I, [2014-05-18T16:20:35.938217 #16172]  INFO -- : Log in started
+I, [2014-05-18T16:20:52.766179 #16172]  INFO -- : Log in completed
+I, [2014-05-18T16:20:52.766179 #16172]  INFO -- : Parsing main page to get links to books
+I, [2014-05-18T16:20:54.324269 #16172]  INFO -- : Getting book:anandha-vikatan with link http://www.vikatan.com/new/magazine.php?module=magazine&mid=1
+I, [2014-05-18T16:20:55.293324 #16172]  INFO -- : Current Edition Date for anandha-vikatan is 21 May 2014
+I, [2014-05-18T16:20:55.294324 #16172]  INFO -- : Checking if current edition was downloaded...
+I, [2014-05-18T16:20:55.294324 #16172]  INFO -- : Did not find current edition.. 
+I, [2014-05-18T16:20:55.294324 #16172]  INFO -- : Getting Current Edition of anandha-vikatan
+I, [2014-05-18T16:20:55.294324 #16172]  INFO -- : Creating folder E:/Fun Projects/Vikatan/Web/anandha-vikatan/21 May 2014
+I, [2014-05-18T16:20:55.296324 #16172]  INFO -- : Folder Created
+I, [2014-05-18T16:20:55.296324 #16172]  INFO -- : Parsing anandha-vikatan to get links
+I, [2014-05-18T16:20:55.301324 #16172]  INFO -- : anandha-vikatan is parsed to get links
+I, [2014-05-18T16:20:55.301324 #16172]  INFO -- : Creating Page Contents
+I, [2014-05-18T16:21:48.269354 #16172]  INFO -- : Page Contents Completed
+I, [2014-05-18T16:21:48.314357 #16172]  INFO -- : Getting book:junior-vikatan with link http://www.vikatan.com/new/magazine.php?module=magazine&mid=2
+I, [2014-05-18T16:21:49.258411 #16172]  INFO -- : Current Edition Date for junior-vikatan is 21 May 2014
+I, [2014-05-18T16:21:49.258411 #16172]  INFO -- : Checking if current edition was downloaded...
+I, [2014-05-18T16:21:49.310414 #16172]  INFO -- : Did not find current edition.. 
+I, [2014-05-18T16:21:49.310414 #16172]  INFO -- : Getting Current Edition of junior-vikatan
+I, [2014-05-18T16:21:49.310414 #16172]  INFO -- : Creating folder E:/Fun Projects/Vikatan/Web/junior-vikatan/21 May 2014
+I, [2014-05-18T16:21:49.312414 #16172]  INFO -- : Folder Created
+I, [2014-05-18T16:21:49.312414 #16172]  INFO -- : Parsing junior-vikatan to get links
+I, [2014-05-18T16:21:49.314414 #16172]  INFO -- : junior-vikatan is parsed to get links
+I, [2014-05-18T16:21:49.314414 #16172]  INFO -- : Creating Page Contents
+I, [2014-05-18T16:22:09.155549 #16172]  INFO -- : Page Contents Completed
+I, [2014-05-18T16:22:09.186550 #16172]  INFO -- : Getting book:aval-vikatan with link http://www.vikatan.com/new/magazine.php?module=magazine&mid=3
+I, [2014-05-18T16:22:10.096603 #16172]  INFO -- : Current Edition Date for aval-vikatan is 20 May 2014
+I, [2014-05-18T16:22:10.096603 #16172]  INFO -- : Checking if current edition was downloaded...
+I, [2014-05-18T16:22:10.097603 #16172]  INFO -- : Skipping Current Edition as it has already been downloaded
+I, [2014-05-18T16:22:10.098603 #16172]  INFO -- : Getting book:chutti-vikatan with link http://www.vikatan.com/new/magazine.php?module=magazine&mid=4
+I, [2014-05-18T16:22:11.018655 #16172]  INFO -- : Current Edition Date for chutti-vikatan is 31 May 2014
+I, [2014-05-18T16:22:11.019655 #16172]  INFO -- : Checking if current edition was downloaded...
+I, [2014-05-18T16:22:11.020655 #16172]  INFO -- : Did not find current edition.. 
+I, [2014-05-18T16:22:11.020655 #16172]  INFO -- : Getting Current Edition of chutti-vikatan
+I, [2014-05-18T16:22:11.020655 #16172]  INFO -- : Creating folder E:/Fun Projects/Vikatan/Web/chutti-vikatan/31 May 2014
+I, [2014-05-18T16:22:11.021655 #16172]  INFO -- : Folder Created
+I, [2014-05-18T16:22:11.021655 #16172]  INFO -- : Parsing chutti-vikatan to get links
+I, [2014-05-18T16:22:11.046657 #16172]  INFO -- : chutti-vikatan is parsed to get links
+I, [2014-05-18T16:22:11.046657 #16172]  INFO -- : Creating Page Contents
+I, [2014-05-18T16:23:46.267103 #16172]  INFO -- : Page Contents Completed
+I, [2014-05-18T16:23:46.274104 #16172]  INFO -- : Getting book:sakthi-vikatan with link http://www.vikatan.com/new/magazine.php?module=magazine&mid=5
+I, [2014-05-18T16:23:47.227158 #16172]  INFO -- : Current Edition Date for sakthi-vikatan is 27 May 2014
+I, [2014-05-18T16:23:47.227158 #16172]  INFO -- : Checking if current edition was downloaded...
+I, [2014-05-18T16:23:47.230158 #16172]  INFO -- : Did not find current edition.. 
+I, [2014-05-18T16:23:47.230158 #16172]  INFO -- : Getting Current Edition of sakthi-vikatan
+I, [2014-05-18T16:23:47.230158 #16172]  INFO -- : Creating folder E:/Fun Projects/Vikatan/Web/sakthi-vikatan/27 May 2014
+I, [2014-05-18T16:23:47.231158 #16172]  INFO -- : Folder Created
+I, [2014-05-18T16:23:47.231158 #16172]  INFO -- : Parsing sakthi-vikatan to get links
+I, [2014-05-18T16:23:47.234158 #16172]  INFO -- : sakthi-vikatan is parsed to get links
+I, [2014-05-18T16:23:47.234158 #16172]  INFO -- : Creating Page Contents
+I, [2014-05-18T16:24:34.467860 #16172]  INFO -- : Page Contents Completed
+I, [2014-05-18T16:24:34.499862 #16172]  INFO -- : Getting book:nanayam-vikatan with link http://www.vikatan.com/new/magazine.php?module=magazine&mid=6
+I, [2014-05-18T16:24:35.411914 #16172]  INFO -- : Current Edition Date for nanayam-vikatan is 25 May 2014
+I, [2014-05-18T16:24:35.411914 #16172]  INFO -- : Checking if current edition was downloaded...
+I, [2014-05-18T16:24:35.481918 #16172]  INFO -- : Did not find current edition.. 
+I, [2014-05-18T16:24:35.482918 #16172]  INFO -- : Getting Current Edition of nanayam-vikatan
+I, [2014-05-18T16:24:35.482918 #16172]  INFO -- : Creating folder E:/Fun Projects/Vikatan/Web/nanayam-vikatan/25 May 2014
+I, [2014-05-18T16:24:35.483918 #16172]  INFO -- : Folder Created
+I, [2014-05-18T16:24:35.483918 #16172]  INFO -- : Parsing nanayam-vikatan to get links
+I, [2014-05-18T16:24:35.486918 #16172]  INFO -- : nanayam-vikatan is parsed to get links
+I, [2014-05-18T16:24:35.486918 #16172]  INFO -- : Creating Page Contents
+I, [2014-05-18T16:25:27.957920 #16172]  INFO -- : Page Contents Completed
+I, [2014-05-18T16:25:28.008922 #16172]  INFO -- : Getting book:motor-vikatan with link http://www.vikatan.com/new/magazine.php?module=magazine&mid=7
+I, [2014-05-18T16:25:28.929975 #16172]  INFO -- : Current Edition Date for motor-vikatan is 01 May 2014
+I, [2014-05-18T16:25:28.930975 #16172]  INFO -- : Checking if current edition was downloaded...
+I, [2014-05-18T16:25:28.935976 #16172]  INFO -- : Skipping Current Edition as it has already been downloaded
+I, [2014-05-18T16:25:28.936976 #16172]  INFO -- : Getting book:pasumai-vikatan with link http://www.vikatan.com/new/magazine.php?module=magazine&mid=8
+I, [2014-05-18T16:25:29.857028 #16172]  INFO -- : Current Edition Date for pasumai-vikatan is 25 May 2014
+I, [2014-05-18T16:25:29.857028 #16172]  INFO -- : Checking if current edition was downloaded...
+I, [2014-05-18T16:25:29.858028 #16172]  INFO -- : Skipping Current Edition as it has already been downloaded
+I, [2014-05-18T16:25:29.858028 #16172]  INFO -- : **********************************************
+I, [2014-05-19T16:20:30.352182 #5636]  INFO -- : 
+
+**********************************************
+I, [2014-05-19T16:20:30.369183 #5636]  INFO -- : Program Started
+I, [2014-05-19T16:20:30.369183 #5636]  INFO -- : Log in started
+I, [2014-05-19T16:20:33.987390 #5636]  INFO -- : Log in completed
+I, [2014-05-19T16:20:33.988390 #5636]  INFO -- : Parsing main page to get links to books
+I, [2014-05-19T16:20:35.551479 #5636]  INFO -- : Getting book:anandha-vikatan with link http://www.vikatan.com/new/magazine.php?module=magazine&mid=1
+I, [2014-05-19T16:20:36.501533 #5636]  INFO -- : Current Edition Date for anandha-vikatan is 21 May 2014
+I, [2014-05-19T16:20:36.501533 #5636]  INFO -- : Checking if current edition was downloaded...
+I, [2014-05-19T16:20:36.502534 #5636]  INFO -- : Skipping Current Edition as it has already been downloaded
+I, [2014-05-19T16:20:36.503534 #5636]  INFO -- : Getting book:junior-vikatan with link http://www.vikatan.com/new/magazine.php?module=magazine&mid=2
+I, [2014-05-19T16:20:37.458588 #5636]  INFO -- : Current Edition Date for junior-vikatan is 21 May 2014
+I, [2014-05-19T16:20:37.459588 #5636]  INFO -- : Checking if current edition was downloaded...
+I, [2014-05-19T16:20:37.460588 #5636]  INFO -- : Skipping Current Edition as it has already been downloaded
+I, [2014-05-19T16:20:37.462588 #5636]  INFO -- : Getting book:aval-vikatan with link http://www.vikatan.com/new/magazine.php?module=magazine&mid=3
+I, [2014-05-19T16:20:38.378641 #5636]  INFO -- : Current Edition Date for aval-vikatan is 20 May 2014
+I, [2014-05-19T16:20:38.379641 #5636]  INFO -- : Checking if current edition was downloaded...
+I, [2014-05-19T16:20:38.380641 #5636]  INFO -- : Skipping Current Edition as it has already been downloaded
+I, [2014-05-19T16:20:38.381641 #5636]  INFO -- : Getting book:chutti-vikatan with link http://www.vikatan.com/new/magazine.php?module=magazine&mid=4
+I, [2014-05-19T16:20:39.304694 #5636]  INFO -- : Current Edition Date for chutti-vikatan is 31 May 2014
+I, [2014-05-19T16:20:39.304694 #5636]  INFO -- : Checking if current edition was downloaded...
+I, [2014-05-19T16:20:39.305694 #5636]  INFO -- : Skipping Current Edition as it has already been downloaded
+I, [2014-05-19T16:20:39.307694 #5636]  INFO -- : Getting book:sakthi-vikatan with link http://www.vikatan.com/new/magazine.php?module=magazine&mid=5
+I, [2014-05-19T16:20:40.250748 #5636]  INFO -- : Current Edition Date for sakthi-vikatan is 27 May 2014
+I, [2014-05-19T16:20:40.250748 #5636]  INFO -- : Checking if current edition was downloaded...
+I, [2014-05-19T16:20:40.251748 #5636]  INFO -- : Skipping Current Edition as it has already been downloaded
+I, [2014-05-19T16:20:40.252748 #5636]  INFO -- : Getting book:nanayam-vikatan with link http://www.vikatan.com/new/magazine.php?module=magazine&mid=6
+I, [2014-05-19T16:20:41.163800 #5636]  INFO -- : Current Edition Date for nanayam-vikatan is 25 May 2014
+I, [2014-05-19T16:20:41.163800 #5636]  INFO -- : Checking if current edition was downloaded...
+I, [2014-05-19T16:20:41.164800 #5636]  INFO -- : Skipping Current Edition as it has already been downloaded
+I, [2014-05-19T16:20:41.165800 #5636]  INFO -- : Getting book:motor-vikatan with link http://www.vikatan.com/new/magazine.php?module=magazine&mid=7
+I, [2014-05-19T16:20:42.132856 #5636]  INFO -- : Current Edition Date for motor-vikatan is 01 May 2014
+I, [2014-05-19T16:20:42.132856 #5636]  INFO -- : Checking if current edition was downloaded...
+I, [2014-05-19T16:20:42.133856 #5636]  INFO -- : Skipping Current Edition as it has already been downloaded
+I, [2014-05-19T16:20:42.134856 #5636]  INFO -- : Getting book:pasumai-vikatan with link http://www.vikatan.com/new/magazine.php?module=magazine&mid=8
+I, [2014-05-19T16:20:43.059909 #5636]  INFO -- : Current Edition Date for pasumai-vikatan is 25 May 2014
+I, [2014-05-19T16:20:43.059909 #5636]  INFO -- : Checking if current edition was downloaded...
+I, [2014-05-19T16:20:43.061909 #5636]  INFO -- : Skipping Current Edition as it has already been downloaded
+I, [2014-05-19T16:20:43.061909 #5636]  INFO -- : **********************************************
+I, [2014-05-20T16:20:35.094250 #10060]  INFO -- : 
+
+**********************************************
+I, [2014-05-20T16:20:35.126252 #10060]  INFO -- : Program Started
+I, [2014-05-20T16:20:35.126252 #10060]  INFO -- : Log in started
+I, [2014-05-20T16:20:42.551677 #10060]  INFO -- : Log in completed
+I, [2014-05-20T16:20:42.551677 #10060]  INFO -- : Parsing main page to get links to books
+I, [2014-05-20T16:20:43.771747 #10060]  INFO -- : Getting book:anandha-vikatan with link http://www.vikatan.com/new/magazine.php?module=magazine&mid=1
+I, [2014-05-20T16:20:44.732802 #10060]  INFO -- : Current Edition Date for anandha-vikatan is 21 May 2014
+I, [2014-05-20T16:20:44.750803 #10060]  INFO -- : Checking if current edition was downloaded...
+I, [2014-05-20T16:20:44.751803 #10060]  INFO -- : Skipping Current Edition as it has already been downloaded
+I, [2014-05-20T16:20:44.752803 #10060]  INFO -- : Getting book:junior-vikatan with link http://www.vikatan.com/new/magazine.php?module=magazine&mid=2
+I, [2014-05-20T16:20:45.712858 #10060]  INFO -- : Current Edition Date for junior-vikatan is 21 May 2014
+I, [2014-05-20T16:20:45.712858 #10060]  INFO -- : Checking if current edition was downloaded...
+I, [2014-05-20T16:20:45.714858 #10060]  INFO -- : Skipping Current Edition as it has already been downloaded
+I, [2014-05-20T16:20:45.714858 #10060]  INFO -- : Getting book:aval-vikatan with link http://www.vikatan.com/new/magazine.php?module=magazine&mid=3
+I, [2014-05-20T16:20:46.648911 #10060]  INFO -- : Current Edition Date for aval-vikatan is 03 Jun 2014
+I, [2014-05-20T16:20:46.648911 #10060]  INFO -- : Checking if current edition was downloaded...
+I, [2014-05-20T16:20:46.649911 #10060]  INFO -- : Did not find current edition.. 
+I, [2014-05-20T16:20:46.649911 #10060]  INFO -- : Getting Current Edition of aval-vikatan
+I, [2014-05-20T16:20:46.649911 #10060]  INFO -- : Creating folder E:/Fun Projects/Vikatan/Web/aval-vikatan/03 Jun 2014
+I, [2014-05-20T16:20:46.650911 #10060]  INFO -- : Folder Created
+I, [2014-05-20T16:20:46.650911 #10060]  INFO -- : Parsing aval-vikatan to get links
+I, [2014-05-20T16:20:46.652911 #10060]  INFO -- : aval-vikatan is parsed to get links
+I, [2014-05-20T16:20:46.653911 #10060]  INFO -- : Creating Page Contents
+I, [2014-05-20T16:21:33.207574 #10060]  INFO -- : Page Contents Completed
+I, [2014-05-20T16:21:33.273578 #10060]  INFO -- : Getting book:chutti-vikatan with link http://www.vikatan.com/new/magazine.php?module=magazine&mid=4
+I, [2014-05-20T16:21:34.194631 #10060]  INFO -- : Current Edition Date for chutti-vikatan is 31 May 2014
+I, [2014-05-20T16:21:34.194631 #10060]  INFO -- : Checking if current edition was downloaded...
+I, [2014-05-20T16:21:34.197631 #10060]  INFO -- : Skipping Current Edition as it has already been downloaded
+I, [2014-05-20T16:21:34.198631 #10060]  INFO -- : Getting book:sakthi-vikatan with link http://www.vikatan.com/new/magazine.php?module=magazine&mid=5
+I, [2014-05-20T16:21:35.131684 #10060]  INFO -- : Current Edition Date for sakthi-vikatan is 27 May 2014
+I, [2014-05-20T16:21:35.131684 #10060]  INFO -- : Checking if current edition was downloaded...
+I, [2014-05-20T16:21:35.182687 #10060]  INFO -- : Skipping Current Edition as it has already been downloaded
+I, [2014-05-20T16:21:35.183687 #10060]  INFO -- : Getting book:nanayam-vikatan with link http://www.vikatan.com/new/magazine.php?module=magazine&mid=6
+I, [2014-05-20T16:21:36.092739 #10060]  INFO -- : Current Edition Date for nanayam-vikatan is 25 May 2014
+I, [2014-05-20T16:21:36.092739 #10060]  INFO -- : Checking if current edition was downloaded...
+I, [2014-05-20T16:21:36.093739 #10060]  INFO -- : Skipping Current Edition as it has already been downloaded
+I, [2014-05-20T16:21:36.094739 #10060]  INFO -- : Getting book:motor-vikatan with link http://www.vikatan.com/new/magazine.php?module=magazine&mid=7
+I, [2014-05-20T16:21:37.071795 #10060]  INFO -- : Current Edition Date for motor-vikatan is 01 May 2014
+I, [2014-05-20T16:21:37.071795 #10060]  INFO -- : Checking if current edition was downloaded...
+I, [2014-05-20T16:21:37.072795 #10060]  INFO -- : Skipping Current Edition as it has already been downloaded
+I, [2014-05-20T16:21:37.073795 #10060]  INFO -- : Getting book:pasumai-vikatan with link http://www.vikatan.com/new/magazine.php?module=magazine&mid=8
+I, [2014-05-20T16:21:38.037850 #10060]  INFO -- : Current Edition Date for pasumai-vikatan is 25 May 2014
+I, [2014-05-20T16:21:38.037850 #10060]  INFO -- : Checking if current edition was downloaded...
+I, [2014-05-20T16:21:38.039851 #10060]  INFO -- : Skipping Current Edition as it has already been downloaded
+I, [2014-05-20T16:21:38.039851 #10060]  INFO -- : **********************************************
+I, [2014-05-21T16:20:28.730684 #9512]  INFO -- : 
+
+**********************************************
+I, [2014-05-21T16:20:28.749685 #9512]  INFO -- : Program Started
+I, [2014-05-21T16:20:28.749685 #9512]  INFO -- : Log in started
+I, [2014-05-21T16:20:36.232113 #9512]  INFO -- : Log in completed
+I, [2014-05-21T16:20:36.233113 #9512]  INFO -- : Parsing main page to get links to books
+I, [2014-05-21T16:20:37.855206 #9512]  INFO -- : Getting book:anandha-vikatan with link http://www.vikatan.com/new/magazine.php?module=magazine&mid=1
+I, [2014-05-21T16:20:38.906266 #9512]  INFO -- : Current Edition Date for anandha-vikatan is 21 May 2014
+I, [2014-05-21T16:20:38.906266 #9512]  INFO -- : Checking if current edition was downloaded...
+I, [2014-05-21T16:20:38.906266 #9512]  INFO -- : Skipping Current Edition as it has already been downloaded
+I, [2014-05-21T16:20:38.907266 #9512]  INFO -- : Getting book:junior-vikatan with link http://www.vikatan.com/new/magazine.php?module=magazine&mid=2
+I, [2014-05-21T16:20:39.810317 #9512]  INFO -- : Current Edition Date for junior-vikatan is 25 May 2014
+I, [2014-05-21T16:20:39.810317 #9512]  INFO -- : Checking if current edition was downloaded...
+I, [2014-05-21T16:20:39.810317 #9512]  INFO -- : Did not find current edition.. 
+I, [2014-05-21T16:20:39.810317 #9512]  INFO -- : Getting Current Edition of junior-vikatan
+I, [2014-05-21T16:20:39.810317 #9512]  INFO -- : Creating folder E:/Fun Projects/Vikatan/Web/junior-vikatan/25 May 2014
+I, [2014-05-21T16:20:39.811317 #9512]  INFO -- : Folder Created
+I, [2014-05-21T16:20:39.811317 #9512]  INFO -- : Parsing junior-vikatan to get links
+I, [2014-05-21T16:20:39.812317 #9512]  INFO -- : junior-vikatan is parsed to get links
+I, [2014-05-21T16:20:39.812317 #9512]  INFO -- : Creating Page Contents
+I, [2014-05-21T16:21:01.570562 #9512]  INFO -- : Page Contents Completed
+I, [2014-05-21T16:21:01.676568 #9512]  INFO -- : Getting book:aval-vikatan with link http://www.vikatan.com/new/magazine.php?module=magazine&mid=3
+I, [2014-05-21T16:21:02.625622 #9512]  INFO -- : Current Edition Date for aval-vikatan is 03 Jun 2014
+I, [2014-05-21T16:21:02.625622 #9512]  INFO -- : Checking if current edition was downloaded...
+I, [2014-05-21T16:21:02.644623 #9512]  INFO -- : Skipping Current Edition as it has already been downloaded
+I, [2014-05-21T16:21:02.645623 #9512]  INFO -- : Getting book:chutti-vikatan with link http://www.vikatan.com/new/magazine.php?module=magazine&mid=4
+I, [2014-05-21T16:21:03.612679 #9512]  INFO -- : Current Edition Date for chutti-vikatan is 31 May 2014
+I, [2014-05-21T16:21:03.612679 #9512]  INFO -- : Checking if current edition was downloaded...
+I, [2014-05-21T16:21:03.613679 #9512]  INFO -- : Skipping Current Edition as it has already been downloaded
+I, [2014-05-21T16:21:03.614679 #9512]  INFO -- : Getting book:sakthi-vikatan with link http://www.vikatan.com/new/magazine.php?module=magazine&mid=5
+I, [2014-05-21T16:21:04.616736 #9512]  INFO -- : Current Edition Date for sakthi-vikatan is 27 May 2014
+I, [2014-05-21T16:21:04.616736 #9512]  INFO -- : Checking if current edition was downloaded...
+I, [2014-05-21T16:21:04.617736 #9512]  INFO -- : Skipping Current Edition as it has already been downloaded
+I, [2014-05-21T16:21:04.618736 #9512]  INFO -- : Getting book:nanayam-vikatan with link http://www.vikatan.com/new/magazine.php?module=magazine&mid=6
+I, [2014-05-21T16:21:05.596792 #9512]  INFO -- : Current Edition Date for nanayam-vikatan is 25 May 2014
+I, [2014-05-21T16:21:05.597792 #9512]  INFO -- : Checking if current edition was downloaded...
+I, [2014-05-21T16:21:05.598792 #9512]  INFO -- : Skipping Current Edition as it has already been downloaded
+I, [2014-05-21T16:21:05.599792 #9512]  INFO -- : Getting book:motor-vikatan with link http://www.vikatan.com/new/magazine.php?module=magazine&mid=7
+I, [2014-05-21T16:21:08.009930 #9512]  INFO -- : Current Edition Date for motor-vikatan is 01 May 2014
+I, [2014-05-21T16:21:08.009930 #9512]  INFO -- : Checking if current edition was downloaded...
+I, [2014-05-21T16:21:08.040932 #9512]  INFO -- : Skipping Current Edition as it has already been downloaded
+I, [2014-05-21T16:21:08.041932 #9512]  INFO -- : Getting book:pasumai-vikatan with link http://www.vikatan.com/new/magazine.php?module=magazine&mid=8
+I, [2014-05-21T16:21:09.003987 #9512]  INFO -- : Current Edition Date for pasumai-vikatan is 25 May 2014
+I, [2014-05-21T16:21:09.003987 #9512]  INFO -- : Checking if current edition was downloaded...
+I, [2014-05-21T16:21:09.005987 #9512]  INFO -- : Skipping Current Edition as it has already been downloaded
+I, [2014-05-21T16:21:09.005987 #9512]  INFO -- : **********************************************
+I, [2014-05-22T16:20:29.357586 #7252]  INFO -- : 
+
+**********************************************
+I, [2014-05-22T16:20:29.407586 #7252]  INFO -- : Program Started
+I, [2014-05-22T16:20:29.407586 #7252]  INFO -- : Log in started
+I, [2014-05-22T16:20:33.647592 #7252]  INFO -- : Log in completed
+I, [2014-05-22T16:20:33.647592 #7252]  INFO -- : Parsing main page to get links to books
+I, [2014-05-22T16:20:35.187594 #7252]  INFO -- : Getting book:anandha-vikatan with link http://www.vikatan.com/new/magazine.php?module=magazine&mid=1
+I, [2014-05-22T16:20:36.127595 #7252]  INFO -- : Current Edition Date for anandha-vikatan is 28 May 2014
+I, [2014-05-22T16:20:36.127595 #7252]  INFO -- : Checking if current edition was downloaded...
+I, [2014-05-22T16:20:36.127595 #7252]  INFO -- : Did not find current edition.. 
+I, [2014-05-22T16:20:36.127595 #7252]  INFO -- : Getting Current Edition of anandha-vikatan
+I, [2014-05-22T16:20:36.127595 #7252]  INFO -- : Creating folder E:/Fun Projects/Vikatan/Web/anandha-vikatan/28 May 2014
+I, [2014-05-22T16:20:36.127595 #7252]  INFO -- : Folder Created
+I, [2014-05-22T16:20:36.127595 #7252]  INFO -- : Parsing anandha-vikatan to get links
+I, [2014-05-22T16:20:36.137595 #7252]  INFO -- : anandha-vikatan is parsed to get links
+I, [2014-05-22T16:20:36.137595 #7252]  INFO -- : Creating Page Contents
+I, [2014-05-22T16:21:26.917666 #7252]  INFO -- : Page Contents Completed
+I, [2014-05-22T16:21:27.807668 #7252]  INFO -- : Getting book:junior-vikatan with link http://www.vikatan.com/new/magazine.php?module=magazine&mid=2
+I, [2014-05-22T16:21:28.777669 #7252]  INFO -- : Current Edition Date for junior-vikatan is 25 May 2014
+I, [2014-05-22T16:21:28.777669 #7252]  INFO -- : Checking if current edition was downloaded...
+I, [2014-05-22T16:21:28.827669 #7252]  INFO -- : Skipping Current Edition as it has already been downloaded
+I, [2014-05-22T16:21:28.827669 #7252]  INFO -- : Getting book:aval-vikatan with link http://www.vikatan.com/new/magazine.php?module=magazine&mid=3
+I, [2014-05-22T16:21:29.757670 #7252]  INFO -- : Current Edition Date for aval-vikatan is 03 Jun 2014
+I, [2014-05-22T16:21:29.757670 #7252]  INFO -- : Checking if current edition was downloaded...
+I, [2014-05-22T16:21:29.757670 #7252]  INFO -- : Skipping Current Edition as it has already been downloaded
+I, [2014-05-22T16:21:29.757670 #7252]  INFO -- : Getting book:chutti-vikatan with link http://www.vikatan.com/new/magazine.php?module=magazine&mid=4
+I, [2014-05-22T16:21:30.607671 #7252]  INFO -- : Current Edition Date for chutti-vikatan is 31 May 2014
+I, [2014-05-22T16:21:30.607671 #7252]  INFO -- : Checking if current edition was downloaded...
+I, [2014-05-22T16:21:30.607671 #7252]  INFO -- : Skipping Current Edition as it has already been downloaded
+I, [2014-05-22T16:21:30.617671 #7252]  INFO -- : Getting book:sakthi-vikatan with link http://www.vikatan.com/new/magazine.php?module=magazine&mid=5
+I, [2014-05-22T16:21:31.557673 #7252]  INFO -- : Current Edition Date for sakthi-vikatan is 27 May 2014
+I, [2014-05-22T16:21:31.557673 #7252]  INFO -- : Checking if current edition was downloaded...
+I, [2014-05-22T16:21:31.557673 #7252]  INFO -- : Skipping Current Edition as it has already been downloaded
+I, [2014-05-22T16:21:31.557673 #7252]  INFO -- : Getting book:nanayam-vikatan with link http://www.vikatan.com/new/magazine.php?module=magazine&mid=6
+I, [2014-05-22T16:21:32.517674 #7252]  INFO -- : Current Edition Date for nanayam-vikatan is 25 May 2014
+I, [2014-05-22T16:21:32.517674 #7252]  INFO -- : Checking if current edition was downloaded...
+I, [2014-05-22T16:21:32.517674 #7252]  INFO -- : Skipping Current Edition as it has already been downloaded
+I, [2014-05-22T16:21:32.517674 #7252]  INFO -- : Getting book:motor-vikatan with link http://www.vikatan.com/new/magazine.php?module=magazine&mid=7
+I, [2014-05-22T16:21:33.419677 #7252]  INFO -- : Current Edition Date for motor-vikatan is 01 May 2014
+I, [2014-05-22T16:21:33.419677 #7252]  INFO -- : Checking if current edition was downloaded...
+I, [2014-05-22T16:21:33.419677 #7252]  INFO -- : Skipping Current Edition as it has already been downloaded
+I, [2014-05-22T16:21:33.429677 #7252]  INFO -- : Getting book:pasumai-vikatan with link http://www.vikatan.com/new/magazine.php?module=magazine&mid=8
+I, [2014-05-22T16:21:34.409678 #7252]  INFO -- : Current Edition Date for pasumai-vikatan is 25 May 2014
+I, [2014-05-22T16:21:34.409678 #7252]  INFO -- : Checking if current edition was downloaded...
+I, [2014-05-22T16:21:34.409678 #7252]  INFO -- : Skipping Current Edition as it has already been downloaded
+I, [2014-05-22T16:21:34.409678 #7252]  INFO -- : **********************************************
+I, [2014-05-23T16:20:37.837900 #11196]  INFO -- : 
+
+**********************************************
+I, [2014-05-23T16:20:37.897900 #11196]  INFO -- : Program Started
+I, [2014-05-23T16:20:37.897900 #11196]  INFO -- : Log in started
+I, [2014-05-23T16:20:41.787906 #11196]  INFO -- : Log in completed
+I, [2014-05-23T16:20:41.787906 #11196]  INFO -- : Parsing main page to get links to books
+I, [2014-05-23T16:20:43.327908 #11196]  INFO -- : Getting book:anandha-vikatan with link http://www.vikatan.com/new/magazine.php?module=magazine&mid=1
+I, [2014-05-23T16:20:44.377909 #11196]  INFO -- : Current Edition Date for anandha-vikatan is 28 May 2014
+I, [2014-05-23T16:20:44.377909 #11196]  INFO -- : Checking if current edition was downloaded...
+I, [2014-05-23T16:20:44.377909 #11196]  INFO -- : Skipping Current Edition as it has already been downloaded
+I, [2014-05-23T16:20:44.387909 #11196]  INFO -- : Getting book:junior-vikatan with link http://www.vikatan.com/new/magazine.php?module=magazine&mid=2
+I, [2014-05-23T16:20:45.317911 #11196]  INFO -- : Current Edition Date for junior-vikatan is 25 May 2014
+I, [2014-05-23T16:20:45.317911 #11196]  INFO -- : Checking if current edition was downloaded...
+I, [2014-05-23T16:20:45.317911 #11196]  INFO -- : Skipping Current Edition as it has already been downloaded
+I, [2014-05-23T16:20:45.317911 #11196]  INFO -- : Getting book:aval-vikatan with link http://www.vikatan.com/new/magazine.php?module=magazine&mid=3
+I, [2014-05-23T16:20:46.217912 #11196]  INFO -- : Current Edition Date for aval-vikatan is 03 Jun 2014
+I, [2014-05-23T16:20:46.217912 #11196]  INFO -- : Checking if current edition was downloaded...
+I, [2014-05-23T16:20:46.217912 #11196]  INFO -- : Skipping Current Edition as it has already been downloaded
+I, [2014-05-23T16:20:46.217912 #11196]  INFO -- : Getting book:chutti-vikatan with link http://www.vikatan.com/new/magazine.php?module=magazine&mid=4
+I, [2014-05-23T16:20:47.207913 #11196]  INFO -- : Current Edition Date for chutti-vikatan is 31 May 2014
+I, [2014-05-23T16:20:47.207913 #11196]  INFO -- : Checking if current edition was downloaded...
+I, [2014-05-23T16:20:47.207913 #11196]  INFO -- : Skipping Current Edition as it has already been downloaded
+I, [2014-05-23T16:20:47.207913 #11196]  INFO -- : Getting book:sakthi-vikatan with link http://www.vikatan.com/new/magazine.php?module=magazine&mid=5
+I, [2014-05-23T16:20:48.077915 #11196]  INFO -- : Current Edition Date for sakthi-vikatan is 27 May 2014
+I, [2014-05-23T16:20:48.077915 #11196]  INFO -- : Checking if current edition was downloaded...
+I, [2014-05-23T16:20:48.087915 #11196]  INFO -- : Skipping Current Edition as it has already been downloaded
+I, [2014-05-23T16:20:48.087915 #11196]  INFO -- : Getting book:nanayam-vikatan with link http://www.vikatan.com/new/magazine.php?module=magazine&mid=6
+I, [2014-05-23T16:20:48.997916 #11196]  INFO -- : Current Edition Date for nanayam-vikatan is 25 May 2014
+I, [2014-05-23T16:20:48.997916 #11196]  INFO -- : Checking if current edition was downloaded...
+I, [2014-05-23T16:20:49.017916 #11196]  INFO -- : Skipping Current Edition as it has already been downloaded
+I, [2014-05-23T16:20:49.017916 #11196]  INFO -- : Getting book:motor-vikatan with link http://www.vikatan.com/new/magazine.php?module=magazine&mid=7
+I, [2014-05-23T16:20:49.867917 #11196]  INFO -- : Current Edition Date for motor-vikatan is 01 May 2014
+I, [2014-05-23T16:20:49.867917 #11196]  INFO -- : Checking if current edition was downloaded...
+I, [2014-05-23T16:20:49.867917 #11196]  INFO -- : Skipping Current Edition as it has already been downloaded
+I, [2014-05-23T16:20:49.867917 #11196]  INFO -- : Getting book:pasumai-vikatan with link http://www.vikatan.com/new/magazine.php?module=magazine&mid=8
+I, [2014-05-23T16:20:50.727918 #11196]  INFO -- : Current Edition Date for pasumai-vikatan is 25 May 2014
+I, [2014-05-23T16:20:50.727918 #11196]  INFO -- : Checking if current edition was downloaded...
+I, [2014-05-23T16:20:50.737918 #11196]  INFO -- : Skipping Current Edition as it has already been downloaded
+I, [2014-05-23T16:20:50.737918 #11196]  INFO -- : **********************************************
+I, [2014-05-24T16:20:45.609225 #11728]  INFO -- : 
+
+**********************************************
+I, [2014-05-24T16:20:45.669225 #11728]  INFO -- : Program Started
+I, [2014-05-24T16:20:45.669225 #11728]  INFO -- : Log in started
+I, [2014-05-24T16:20:49.709231 #11728]  INFO -- : Log in completed
+I, [2014-05-24T16:20:49.709231 #11728]  INFO -- : Parsing main page to get links to books
+I, [2014-05-24T16:20:51.279233 #11728]  INFO -- : Getting book:anandha-vikatan with link http://www.vikatan.com/new/magazine.php?module=magazine&mid=1
+I, [2014-05-24T16:20:52.199234 #11728]  INFO -- : Current Edition Date for anandha-vikatan is 28 May 2014
+I, [2014-05-24T16:20:52.199234 #11728]  INFO -- : Checking if current edition was downloaded...
+I, [2014-05-24T16:20:52.219234 #11728]  INFO -- : Skipping Current Edition as it has already been downloaded
+I, [2014-05-24T16:20:52.219234 #11728]  INFO -- : Getting book:junior-vikatan with link http://www.vikatan.com/new/magazine.php?module=magazine&mid=2
+I, [2014-05-24T16:20:53.169235 #11728]  INFO -- : Current Edition Date for junior-vikatan is 28 May 2014
+I, [2014-05-24T16:20:53.169235 #11728]  INFO -- : Checking if current edition was downloaded...
+I, [2014-05-24T16:20:53.169235 #11728]  INFO -- : Did not find current edition.. 
+I, [2014-05-24T16:20:53.169235 #11728]  INFO -- : Getting Current Edition of junior-vikatan
+I, [2014-05-24T16:20:53.169235 #11728]  INFO -- : Creating folder E:/Fun Projects/Vikatan/Web/junior-vikatan/28 May 2014
+I, [2014-05-24T16:20:53.169235 #11728]  INFO -- : Folder Created
+I, [2014-05-24T16:20:53.169235 #11728]  INFO -- : Parsing junior-vikatan to get links
+I, [2014-05-24T16:20:53.169235 #11728]  INFO -- : junior-vikatan is parsed to get links
+I, [2014-05-24T16:20:53.169235 #11728]  INFO -- : Creating Page Contents
+I, [2014-05-24T16:21:15.309266 #11728]  INFO -- : Page Contents Completed
+I, [2014-05-24T16:21:15.399267 #11728]  INFO -- : Getting book:aval-vikatan with link http://www.vikatan.com/new/magazine.php?module=magazine&mid=3
+I, [2014-05-24T16:21:16.319268 #11728]  INFO -- : Current Edition Date for aval-vikatan is 03 Jun 2014
+I, [2014-05-24T16:21:16.319268 #11728]  INFO -- : Checking if current edition was downloaded...
+I, [2014-05-24T16:21:16.349268 #11728]  INFO -- : Skipping Current Edition as it has already been downloaded
+I, [2014-05-24T16:21:16.349268 #11728]  INFO -- : Getting book:chutti-vikatan with link http://www.vikatan.com/new/magazine.php?module=magazine&mid=4
+I, [2014-05-24T16:21:17.289269 #11728]  INFO -- : Current Edition Date for chutti-vikatan is 31 May 2014
+I, [2014-05-24T16:21:17.289269 #11728]  INFO -- : Checking if current edition was downloaded...
+I, [2014-05-24T16:21:17.309269 #11728]  INFO -- : Skipping Current Edition as it has already been downloaded
+I, [2014-05-24T16:21:17.309269 #11728]  INFO -- : Getting book:sakthi-vikatan with link http://www.vikatan.com/new/magazine.php?module=magazine&mid=5
+I, [2014-05-24T16:21:18.239271 #11728]  INFO -- : Current Edition Date for sakthi-vikatan is 27 May 2014
+I, [2014-05-24T16:21:18.239271 #11728]  INFO -- : Checking if current edition was downloaded...
+I, [2014-05-24T16:21:18.239271 #11728]  INFO -- : Skipping Current Edition as it has already been downloaded
+I, [2014-05-24T16:21:18.239271 #11728]  INFO -- : Getting book:nanayam-vikatan with link http://www.vikatan.com/new/magazine.php?module=magazine&mid=6
+I, [2014-05-24T16:21:22.119276 #11728]  INFO -- : Current Edition Date for nanayam-vikatan is 25 May 2014
+I, [2014-05-24T16:21:22.119276 #11728]  INFO -- : Checking if current edition was downloaded...
+I, [2014-05-24T16:21:22.169276 #11728]  INFO -- : Skipping Current Edition as it has already been downloaded
+I, [2014-05-24T16:21:22.169276 #11728]  INFO -- : Getting book:motor-vikatan with link http://www.vikatan.com/new/magazine.php?module=magazine&mid=7
+I, [2014-05-24T16:21:23.089277 #11728]  INFO -- : Current Edition Date for motor-vikatan is 01 May 2014
+I, [2014-05-24T16:21:23.089277 #11728]  INFO -- : Checking if current edition was downloaded...
+I, [2014-05-24T16:21:23.089277 #11728]  INFO -- : Skipping Current Edition as it has already been downloaded
+I, [2014-05-24T16:21:23.089277 #11728]  INFO -- : Getting book:pasumai-vikatan with link http://www.vikatan.com/new/magazine.php?module=magazine&mid=8
+I, [2014-05-24T16:21:24.019279 #11728]  INFO -- : Current Edition Date for pasumai-vikatan is 25 May 2014
+I, [2014-05-24T16:21:24.019279 #11728]  INFO -- : Checking if current edition was downloaded...
+I, [2014-05-24T16:21:24.019279 #11728]  INFO -- : Skipping Current Edition as it has already been downloaded
+I, [2014-05-24T16:21:24.019279 #11728]  INFO -- : **********************************************
+I, [2014-05-25T16:20:44.363592 #7576]  INFO -- : 
+
+**********************************************
+I, [2014-05-25T16:20:44.403592 #7576]  INFO -- : Program Started
+I, [2014-05-25T16:20:44.403592 #7576]  INFO -- : Log in started
+I, [2014-05-25T16:20:49.053599 #7576]  INFO -- : Log in completed
+I, [2014-05-25T16:20:49.053599 #7576]  INFO -- : Parsing main page to get links to books
+I, [2014-05-25T16:20:55.273607 #7576]  INFO -- : Getting book:anandha-vikatan with link http://www.vikatan.com/new/magazine.php?module=magazine&mid=1
+I, [2014-05-25T16:20:58.593612 #7576]  INFO -- : Current Edition Date for anandha-vikatan is 28 May 2014
+I, [2014-05-25T16:20:58.593612 #7576]  INFO -- : Checking if current edition was downloaded...
+I, [2014-05-25T16:20:58.593612 #7576]  INFO -- : Skipping Current Edition as it has already been downloaded
+I, [2014-05-25T16:20:58.603612 #7576]  INFO -- : Getting book:junior-vikatan with link http://www.vikatan.com/new/magazine.php?module=magazine&mid=2
+I, [2014-05-25T16:21:04.283620 #7576]  INFO -- : Current Edition Date for junior-vikatan is 28 May 2014
+I, [2014-05-25T16:21:04.283620 #7576]  INFO -- : Checking if current edition was downloaded...
+I, [2014-05-25T16:21:04.293620 #7576]  INFO -- : Skipping Current Edition as it has already been downloaded
+I, [2014-05-25T16:21:04.293620 #7576]  INFO -- : Getting book:aval-vikatan with link http://www.vikatan.com/new/magazine.php?module=magazine&mid=3
+I, [2014-05-25T16:21:08.193625 #7576]  INFO -- : Current Edition Date for aval-vikatan is 03 Jun 2014
+I, [2014-05-25T16:21:08.193625 #7576]  INFO -- : Checking if current edition was downloaded...
+I, [2014-05-25T16:21:08.213625 #7576]  INFO -- : Skipping Current Edition as it has already been downloaded
+I, [2014-05-25T16:21:08.213625 #7576]  INFO -- : Getting book:chutti-vikatan with link http://www.vikatan.com/new/magazine.php?module=magazine&mid=4
+I, [2014-05-25T16:21:09.223627 #7576]  INFO -- : Current Edition Date for chutti-vikatan is 31 May 2014
+I, [2014-05-25T16:21:09.303627 #7576]  INFO -- : Checking if current edition was downloaded...
+I, [2014-05-25T16:21:09.303627 #7576]  INFO -- : Skipping Current Edition as it has already been downloaded
+I, [2014-05-25T16:21:09.303627 #7576]  INFO -- : Getting book:sakthi-vikatan with link http://www.vikatan.com/new/magazine.php?module=magazine&mid=5
+I, [2014-05-25T16:21:10.313628 #7576]  INFO -- : Current Edition Date for sakthi-vikatan is 27 May 2014
+I, [2014-05-25T16:21:10.313628 #7576]  INFO -- : Checking if current edition was downloaded...
+I, [2014-05-25T16:21:10.313628 #7576]  INFO -- : Skipping Current Edition as it has already been downloaded
+I, [2014-05-25T16:21:10.313628 #7576]  INFO -- : Getting book:nanayam-vikatan with link http://www.vikatan.com/new/magazine.php?module=magazine&mid=6
+I, [2014-05-25T16:21:11.453630 #7576]  INFO -- : Current Edition Date for nanayam-vikatan is 01 Jun 2014
+I, [2014-05-25T16:21:11.453630 #7576]  INFO -- : Checking if current edition was downloaded...
+I, [2014-05-25T16:21:11.453630 #7576]  INFO -- : Did not find current edition.. 
+I, [2014-05-25T16:21:11.453630 #7576]  INFO -- : Getting Current Edition of nanayam-vikatan
+I, [2014-05-25T16:21:11.453630 #7576]  INFO -- : Creating folder E:/Fun Projects/Vikatan/Web/nanayam-vikatan/01 Jun 2014
+I, [2014-05-25T16:21:11.463630 #7576]  INFO -- : Folder Created
+I, [2014-05-25T16:21:11.463630 #7576]  INFO -- : Parsing nanayam-vikatan to get links
+I, [2014-05-25T16:21:11.463630 #7576]  INFO -- : nanayam-vikatan is parsed to get links
+I, [2014-05-25T16:21:11.463630 #7576]  INFO -- : Creating Page Contents
+I, [2014-05-25T16:21:53.173688 #7576]  INFO -- : Page Contents Completed
+I, [2014-05-25T16:21:53.283688 #7576]  INFO -- : Getting book:motor-vikatan with link http://www.vikatan.com/new/magazine.php?module=magazine&mid=7
+I, [2014-05-25T16:21:54.203690 #7576]  INFO -- : Current Edition Date for motor-vikatan is 01 May 2014
+I, [2014-05-25T16:21:54.203690 #7576]  INFO -- : Checking if current edition was downloaded...
+I, [2014-05-25T16:21:54.253690 #7576]  INFO -- : Skipping Current Edition as it has already been downloaded
+I, [2014-05-25T16:21:54.253690 #7576]  INFO -- : Getting book:pasumai-vikatan with link http://www.vikatan.com/new/magazine.php?module=magazine&mid=8
+I, [2014-05-25T16:21:55.283691 #7576]  INFO -- : Current Edition Date for pasumai-vikatan is 10 Jun 2014
+I, [2014-05-25T16:21:55.283691 #7576]  INFO -- : Checking if current edition was downloaded...
+I, [2014-05-25T16:21:55.283691 #7576]  INFO -- : Did not find current edition.. 
+I, [2014-05-25T16:21:55.283691 #7576]  INFO -- : Getting Current Edition of pasumai-vikatan
+I, [2014-05-25T16:21:55.283691 #7576]  INFO -- : Creating folder E:/Fun Projects/Vikatan/Web/pasumai-vikatan/10 Jun 2014
+I, [2014-05-25T16:21:55.283691 #7576]  INFO -- : Folder Created
+I, [2014-05-25T16:21:55.283691 #7576]  INFO -- : Parsing pasumai-vikatan to get links
+I, [2014-05-25T16:21:55.283691 #7576]  INFO -- : pasumai-vikatan is parsed to get links
+I, [2014-05-25T16:21:55.283691 #7576]  INFO -- : Creating Page Contents
+I, [2014-05-25T16:22:25.633734 #7576]  INFO -- : Page Contents Completed
+I, [2014-05-25T16:22:25.713734 #7576]  INFO -- : **********************************************
